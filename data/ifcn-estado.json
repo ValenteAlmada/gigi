@@ -1,0 +1,215 @@
+{
+"fonte": "https://ifcn.madeira.gov.pt/pt/atividades-de-natureza/percursos-pedestres-recomendados/percursos-pedestres-recomendados.html",
+"percursos": {
+"PR 1": {
+"estado": "Aberto",
+"nome": "Vereda do Areeiro",
+"nota": ""
+},
+"PR 1.1": {
+"estado": "Aberto",
+"nome": "Vereda da Ilha",
+"nota": ""
+},
+"PR 1.2": {
+"estado": "Aberto",
+"nome": "Vereda do Pico Ruivo",
+"nota": ""
+},
+"PR 1.3": {
+"estado": "Aberto",
+"nome": "Vereda da Encumeada",
+"nota": ""
+},
+"PR 10": {
+"estado": "Aberto",
+"nome": "Levada do Furado",
+"nota": ""
+},
+"PR 11": {
+"estado": "Aberto",
+"nome": "Vereda dos Balcões",
+"nota": ""
+},
+"PR 12": {
+"estado": "Parcialmente aberto",
+"nome": "Caminho Real da Encumeada",
+"nota": "(Transitável desde a Boca da Corrida até ao km 3,5)"
+},
+"PR 13": {
+"estado": "Aberto",
+"nome": "Vereda do Fanal",
+"nota": ""
+},
+"PR 13.1": {
+"estado": "Aberto",
+"nome": "Vereda da Palha Carga",
+"nota": ""
+},
+"PR 14": {
+"estado": "Aberto",
+"nome": "Levada dos Cedros",
+"nota": ""
+},
+"PR 15": {
+"estado": "Aberto",
+"nome": "Vereda da Ribeira da Janela",
+"nota": ""
+},
+"PR 16": {
+"estado": "Aberto",
+"nome": "Levada Fajã do Rodrigues",
+"nota": ""
+},
+"PR 17": {
+"estado": "Aberto",
+"nome": "Caminho do Pináculo e Folhadal",
+"nota": "(Transitável entre a Encumeada Folhadal – Caramujo - Bica da Cana)"
+},
+"PR 18": {
+"estado": "Aberto",
+"nome": "Levada do Rei",
+"nota": ""
+},
+"PR 19": {
+"estado": "Aberto",
+"nome": "Caminho Real do Paul do Mar",
+"nota": ""
+},
+"PR 2": {
+"estado": "Aberto",
+"nome": "Vereda do Urzal",
+"nota": ""
+},
+"PR 20": {
+"estado": "Encerrado",
+"nome": "Vereda do Jardim do Mar",
+"nota": ""
+},
+"PR 21": {
+"estado": "Aberto",
+"nome": "Caminho do Norte",
+"nota": ""
+},
+"PR 22": {
+"estado": "Aberto",
+"nome": "Vereda do Chão dos Louros",
+"nota": ""
+},
+"PR 23": {
+"estado": "Aberto",
+"nome": "Levada da Azenha",
+"nota": ""
+},
+"PR 27": {
+"estado": "Encerrado",
+"nome": "Glaciar de Planalto",
+"nota": ""
+},
+"PR 28": {
+"estado": "Encerrado",
+"nome": "Levada da Rocha Vermelha",
+"nota": ""
+},
+"PR 3": {
+"estado": "Aberto",
+"nome": "Vereda do Burro",
+"nota": ""
+},
+"PR 3.1": {
+"estado": "Aberto",
+"nome": "Caminho Real do Monte",
+"nota": ""
+},
+"PR 4": {
+"estado": "Parcialmente transitável",
+"nome": "Levada do Barreiro",
+"nota": ""
+},
+"PR 5": {
+"estado": "Aberto",
+"nome": "Vereda das Funduras",
+"nota": ""
+},
+"PR 6": {
+"estado": "Aberto",
+"nome": "Levada das 25 Fontes",
+"nota": "( circulação controlada num único sentido : Rabaçal – 25 Fontes (ida)"
+},
+"PR 6.1": {
+"estado": "Aberto",
+"nome": "Levada do Risco",
+"nota": ""
+},
+"PR 6.2": {
+"estado": "Aberto",
+"nome": "Levada do Alecrim",
+"nota": ""
+},
+"PR 6.3": {
+"estado": "Aberto",
+"nome": "Vereda da Lagoa do Vento",
+"nota": ""
+},
+"PR 6.4": {
+"estado": "Aberto",
+"nome": "Levada Velha do Rabaçal",
+"nota": ""
+},
+"PR 6.5": {
+"estado": "Aberto",
+"nome": "Vereda do Pico Fernandes",
+"nota": ""
+},
+"PR 6.6": {
+"estado": "Aberto",
+"nome": "Vereda do Túnel do Cavalo",
+"nota": ""
+},
+"PR 6.7": {
+"estado": "Aberto",
+"nome": "Vereda da Câmara de Carga do Rabaçal",
+"nota": ""
+},
+"PR 6.8": {
+"estado": "Aberto",
+"nome": "Levada do Paul II – Um Caminho para todos",
+"nota": ""
+},
+"PR 7": {
+"estado": "Encerrado",
+"nome": "Levada do Moinho",
+"nota": ""
+},
+"PR 8": {
+"estado": "Aberto",
+"nome": "Vereda da Ponta de S. Lourenço",
+"nota": ""
+},
+"PR 9": {
+"estado": "Aberto",
+"nome": "Levada do Caldeirão Verde",
+"nota": ""
+},
+"PR 9.1": {
+"estado": "Aberto",
+"nome": "Levada do Caldeirão Verde - Um Caminho para todos",
+"nota": ""
+},
+"PS PR 1": {
+"estado": "Aberto",
+"nome": "Vereda do Pico Branco e Terra Chã",
+"nota": ""
+},
+"PS PR 2": {
+"estado": "Aberto",
+"nome": "Vereda do Pico do Castelo",
+"nota": ""
+},
+"PS PR 3": {
+"estado": "Encerrado",
+"nome": "Levada do Pico Castelo",
+"nota": ""
+}
+}
+}

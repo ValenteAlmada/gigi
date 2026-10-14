@@ -10,6 +10,23 @@ function md(s){let h=e(String(s||'').replace(/\s*\[EST\]/g,' (estimativa)'));con
  h=h.replace(/\[\[([^|\]]+)(?:\|([^\]]*))?\]\]/g,(m,u,t)=>okUrl(un(u))?`<a href="${e(un(u))}" target="_blank" rel="noopener noreferrer">${t||u}</a>`:(t||u));
  return h.replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').split('\n').map(l=>/^🚨 Avisos/.test(l)?`<span class="stale">${l} (na cópia)</span>`:l).join('<br>')}
 window.umapMD=md;
+const NORISK=/^(mobilidade-|servicos-agua|servicos-farmacias|natureza-miradouros|energia|servicos-servicos)/;
+let FRESH=false; // dados lidos há menos de 1 h
+function clean(o,d){let L=String(d||'').split('\n');
+ if(NORISK.test(o.slug))L=L.filter(l=>!/^[🟢🟡🟠🔴⚪]\s/u.test(l.trim()));
+ if(o.slug.startsWith('mobilidade-autocarros')&&!FRESH)L=L.filter(l=>!/^(Hoje:|Próxim)/i.test(l.trim()));
+ L=L.map(l=>l.replace(/^Dificuldade:/,o.slug==='montanha-canyons'?'Cotação do autor do mapa (não homologada):':'Dificuldade:')
+  .replace(/\(termina no mar: por confirmar\)/,'(termina no mar: cotação do autor do mapa, não homologada)')
+  .replace(/^\*\*📜 Licença e regras\*\*/,'**📜 Precisa de autorização e regras**')
+  .replace(/^Licença\/autorização de uso das imagens:/,'Precisa de autorização (uso das imagens):')
+  .replace(/^Licença\/autorização:/,'Precisa de autorização:').replace(/^📝 Licença:/,'📝 Autorização:')
+  .replace(/^💧 Potável: sim \([^)]*\)/,'💧 Água: marcado no OSM (não verificado oficialmente)').replace(/^💧 Potável: não.*/,'💧 Marcado no OSM como não potável').replace(/^💧 Marcado como potável no OSM/,'💧 Água: marcado no OSM').replace(/^💧 Marcado como não potável no OSM/,'💧 Marcado no OSM como não potável').replace(/\bPotável:/,'Marcado no OSM:')
+  .replace(/\[\[https:\/\/www\.horariosdofunchal\.pt\/?\|[^\]]*\]\]/g,'[[https://www.horariosdofunchal.pt/|Horários do Funchal]]'));
+ if(o.slug.startsWith('mobilidade-autocarros')&&!L.some(l=>/horariosdofunchal/.test(l)))L.push('🚌 Horários: [[https://www.horariosdofunchal.pt/|Horários do Funchal]]');
+ return L.join('\n')}
+let IFCN=null;const IFCNURL='https://ifcn.madeira.gov.pt/pt/atividades-de-natureza/percursos-pedestres-recomendados/percursos-pedestres-recomendados.html',SIMPL='https://simplifica.madeira.gov.pt/';
+async function ifcnState(name,lat){try{IFCN=IFCN||(await (await fetch('data/ifcn-estado.json',{cache:'no-store'})).json()).percursos}catch(x){return null}
+ const m=String(name).match(/PR\s*(\d+(?:\.\d+)?)/);if(!m)return null;const k=(lat>32.95?'PS ':'')+'PR '+m[1];return IFCN[k]||null}
 // categorias e subcategorias (tudo ordenado alfabeticamente ao desenhar)
 const SUB={'montanha-base-jump':'Atividades/Ar','montanha-parapente':'Atividades/Ar','lazer-campismo-e-caravanismo':'Atividades/Lazer','lazer-golfe':'Atividades/Lazer','montanha-caminho-real':'Atividades/Montanha','montanha-canyons':'Atividades/Montanha','montanha-escalada':'Atividades/Montanha','montanha-provas-de-trail-e-skyrunning':'Atividades/Montanha','montanha-trilhos-e-levadas':'Atividades/Montanha','lazer-bicicleta':'Atividades/Rodas','lazer-offroad':'Atividades/Rodas',
  'servicos-agua-potavel':'Natureza e Água/Água','natureza-areas-naturais':'Natureza e Água/Natureza','natureza-birdwatching':'Natureza e Água/Natureza','natureza-caca':'Natureza e Água/Natureza','natureza-astronomia':'Natureza e Água/Paisagem','natureza-geossitios':'Natureza e Água/Paisagem','natureza-miradouros':'Natureza e Água/Paisagem',
@@ -43,14 +60,18 @@ const fmt=t=>new Date(t).toLocaleString('pt-PT',{day:'2-digit',month:'2-digit',h
 const dist=(a,b,c,d)=>{const R=6371,x=(c-a)*Math.PI/180*Math.cos((b+d)/2*Math.PI/180),y=(d-b)*Math.PI/180;return R*Math.hypot(x,y)};
 async function nearSafety(lon,lat){const so=UL.find(o=>o.slug==='seguranca-socorro');if(!so)return '';const d=await load(so);const best=re=>{let b=null;for(const f of d.features){if(f.geometry.type!=='Point'||!re.test(f.properties.name))continue;const k=dist(lon,lat,...f.geometry.coordinates);if(!b||k<b[0])b=[k,f.properties.name]}return b};
  const h=best(/Centro de Saúde|Hospital/i),b=best(/Bombeiros/i);return (h?`<br>🏥 Saúde mais próxima: ${e(h[1].replace(/^\W+\s*/,''))} (${h[0].toFixed(1)} km)`:'')+(b?`<br>🚒 Bombeiros mais próximos: ${e(b[1].replace(/^\W+\s*/,''))} (${b[0].toFixed(1)} km)`:'')}
-async function popup(o,f,ll){const p=f.properties,[lon,lat]=f.geometry.type==='Point'?f.geometry.coordinates:[ll.lng,ll.lat];const fage=p.hora?Date.now()-new Date(p.hora).getTime():readAge(),old=o.live&&fage>STALE,desc=o.ext?extDesc(o,p):(p.description||''),lido=p.hora?fmtIso(p.hora):(UPD?UPD.label:META.readLabel);
- const pop=new maplibregl.Popup({maxWidth:'360px',className:'upop'}).setLngLat(f.geometry.type==='Point'?f.geometry.coordinates:ll)
- .setHTML(`<b class="uname">${e(p.name||'(sem nome)')}</b><div class="ulive">A ler avisos e tempo agora…</div><div class="${old?'stale':''}"><small class="ulido">${o.live?'⟳ ':''}lido às ${e(lido)}${old?' · dado antigo':''}</small><div class="udesc">${md(desc)}</div></div><div class="usafe"></div>${desc.includes('Informação não vinculativa')?'':`<p class="uclose">ℹ️ ${CLOSE}</p>`}`).addTo(map);
- const el=pop.getElement();
+async function popup(o,f,ll){const p=f.properties,[lon,lat]=f.geometry.type==='Point'?f.geometry.coordinates:[ll.lng,ll.lat];
+ const fage=p.hora?Date.now()-new Date(p.hora).getTime():readAge(),old=o.live&&fage>STALE,desc=clean(o,o.ext?extDesc(o,p):(p.description||'')),lido=p.hora?fmtIso(p.hora):(UPD?UPD.label:META.readLabel);
+ const sh=document.getElementById('sheet'),c=document.getElementById('sheetc');sh.hidden=false;sh.scrollTop=0;
+ const trail=/^montanha-(trilhos|caminho-real)/.test(o.slug);
+ c.innerHTML=`<div class="upop"><h3 class="uname">${e(p.name||'(sem nome)')}</h3><p class="layer">${e(o.label)}</p><div class="uifcn"></div><div class="ulive">A ler avisos e tempo agora…</div><div class="${old?'stale':''}"><small class="ulido">${o.live?'⟳ ':''}lido às ${e(lido)}${old?' · dado antigo':''}</small><div class="udesc">${md(desc)}</div></div><div class="usafe"></div>${desc.includes('Informação não vinculativa')?'':`<p class="uclose">ℹ️ ${CLOSE}</p>`}${/Non-binding/.test(desc)?'':'<p class="en" lang="en">EN: Non-binding information. Check with the competent authorities (IPMA, Civil Protection, IFCN) and local operators.</p>'}</div>`;
+ const el=c.querySelector('.upop');
+ if(trail){const st=await ifcnState(p.name,lat);const ic=!st?'ℹ️':/Encerr|Fechad/i.test(st.estado)?'⛔':/Parcial|Condic/i.test(st.estado)?'⚠️':'🟢';
+  el.querySelector('.uifcn').innerHTML=`<div class="box"><b>${ic} Estado oficial IFCN: ${st?e(st.estado):'sem informação para este percurso'}</b>${st&&st.nota?'<br>'+e(st.nota):''}<br><a href="${IFCNURL}" target="_blank" rel="noopener">Confirmar no IFCN</a> · <a href="${SIMPL}" target="_blank" rel="noopener">SIMplifica (taxas e reservas)</a><br><span class="en" lang="en">EN: official trail status (IFCN)</span></div>`}
  if(!/Segurança/.test(desc))nearSafety(lon,lat).then(s=>{el.querySelector('.usafe').innerHTML=`<b>🆘 Segurança</b><br>Emergência: <a href="tel:112">112</a>${s}`});
  let L='';try{const a=typeof regionOf==='function'?regionOf(lon,lat):null;if(a){const lv=maxLv(areaWarn(a));L+=`<div>${lv>=3?'☠️':lv>=1?'⚠️':'🟢'} ${lv>=1?warnHTML(a):'Sem avisos'}</div>`}}catch(x){}
- try{const {j,t,old:o2}=await getJSON('u_'+lat.toFixed(2)+lon.toFixed(2),`${OM}?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_gusts_10m,precipitation&timezone=Atlantic%2FMadeira`);const w=j.current;
-  L+=`<div class="${o2?'stale':''}">🌡️ Agora: ${nf(w.temperature_2m)} °C · rajadas ${nf(w.wind_gusts_10m)} km/h · chuva ${nf(w.precipitation,1)} mm <small>· lido às ${fmt(t)}</small></div>`}catch(x){}
+ try{const {j,t,old:o2}=await getJSON('u_'+lat.toFixed(2)+lon.toFixed(2),`${OM}?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_gusts_10m,precipitation,visibility&timezone=Atlantic%2FMadeira`);const w=j.current;
+  L+=`<div class="${o2?'stale':''}">🌡️ Agora: ${nf(w.temperature_2m)} °C · rajadas ${nf(w.wind_gusts_10m)} km/h · chuva ${nf(w.precipitation,1)} mm${w.visibility!=null?` · visibilidade ${w.visibility>=1000?nf(w.visibility/1000,1)+' km':nf(w.visibility)+' m'}`:''} <small>· lido às ${fmt(t)}</small></div>`}catch(x){}
  el.querySelector('.ulive').innerHTML=L||'<span class="stale">Avisos e tempo agora indisponíveis</span>'}
 function bind(){for(const o of UL){
   map.on('click',o.id+'-cl',async ev=>{const f=ev.features[0];const z=await map.getSource(o.id).getClusterExpansionZoom(f.properties.cluster_id);map.jumpTo({center:f.geometry.coordinates,zoom:z})});
@@ -58,7 +79,7 @@ function bind(){for(const o of UL){
    map.on('click',l,ev=>{if(l.endsWith('-fill')&&map.queryRenderedFeatures(ev.point,{layers:[o.id+'-pt',o.id+'-line']}).length)return;popup(o,ev.features[0],ev.lngLat)});
    map.on('mouseenter',l,()=>map.getCanvas().style.cursor='pointer');map.on('mouseleave',l,()=>map.getCanvas().style.cursor='')}}}
 async function setU(o,on){const cb=cbU(o.id);cb.checked=on;if(on)await ensure(o);LAYIDS(o).forEach(l=>map.getLayer(l)&&map.setLayoutProperty(l,'visibility',on?'visible':'none'));draw()}
-window.umapSet=(slug,on)=>setU(UL.find(o=>o.slug===slug),on);
+window.umapPopup=(...a)=>popup(...a);window.umapSet=(slug,on)=>setU(UL.find(o=>o.slug===slug),on);
 let CUR=null,CURS=null;
 function items(){return[...UL.map(o=>({key:'u:'+o.id,label:o.label,count:o.count,sub:subOf(o),on:cbU(o.id).checked,o})),...BUILTIN.map(([g,l,s])=>({key:'l:'+g,label:l,sub:s,on:document.querySelector(`[data-l=${g}]`).checked,g}))]}
 function draw(){const it=items(),cats=[...new Set(it.map(x=>x.sub.split('/')[0]))].sort(CMP),n=c=>it.filter(x=>x.on&&x.sub.startsWith(c+'/')).length;
@@ -78,19 +99,21 @@ function panel(){const L=document.getElementById('layers');[...L.querySelectorAl
   if(b.dataset.k){const [t,id]=b.dataset.k.split(':');if(t==='u'){const o=UL.find(x=>x.id===id);await setU(o,!cbU(id).checked)}else{document.querySelector(`[data-l=${id}]`).click();draw()}return}
   if(b.dataset.r!=null)go(+b.dataset.r)});
  let IDX=null,hits=[];const q=document.getElementById('uq'),res=document.getElementById('ures');const N=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
- q.addEventListener('input',async()=>{const v=N(q.value.trim());if(v.length<2){res.innerHTML='';return}IDX=IDX||await (await fetch('data/umap/search.json')).json();
-  hits=IDX.filter(x=>N(x[0]).includes(v)).sort((a,b)=>CMP(a[0],b[0])).slice(0,20);res.innerHTML=hits.length?hits.map((x,i)=>`<li><button type="button" class="ures" data-r="${i}">${e(x[0])} <small>· ${e(UL[x[1]].label)}</small></button></li>`).join(''):'<li>Sem resultados</li>'});
- async function go(i){const [n,li,lon,lat]=hits[i],o=UL[li];await setU(o,true);map.jumpTo({center:[lon,lat],zoom:16});const d=await load(o);
+ q.addEventListener('input',async()=>{const v=N(q.value.trim());if(v.length<2){res.innerHTML='';return}if(!IDX){IDX=await (await fetch('data/umap/search.json')).json();for(const [f,lab,flt] of [['monumentos','Monumentos',null],['miradouros','Miradouros (OSM)',null],['servicos','Hospitais e clínicas',p=>/hospital|clinic/.test(p.amenity)]]){try{const d=await (await fetch('data/'+f+'.geojson')).json();for(const x of d.features){const p=x.properties;if(!p.name||(flt&&!flt(p)))continue;const [lo,la]=x.geometry.coordinates;IDX.push([p.name,-1,lo,la,lab,p])}}catch(x){}}}
+  hits=IDX.filter(x=>N(x[0]).includes(v)).sort((a,b)=>CMP(a[0],b[0])).slice(0,20);res.innerHTML=hits.length?hits.map((x,i)=>`<li><button type="button" class="ures" data-r="${i}">${e(x[0])} <small>· ${e(x[1]<0?x[4]:UL[x[1]].label)}</small></button></li>`).join(''):'<li>Sem resultados</li>'});
+ async function go(i){const [n,li,lon,lat,lab,props]=hits[i];if(li<0){map.jumpTo({center:[lon,lat],zoom:16});res.innerHTML='';q.value='';ficha({name:n,lat,lon,tags:props,osm:props.osm,featured:n===NSP.name});return}const o=UL[li];await setU(o,true);map.jumpTo({center:[lon,lat],zoom:16});const d=await load(o);
   const f=d.features.find(f=>f.properties.name===n)||{properties:{name:n},geometry:{type:'Point',coordinates:[lon,lat]}};popup(o,f.geometry.type==='Point'?f:{...f,geometry:f.geometry},{lng:lon,lat});res.innerHTML='';q.value=''}
  // Fontes e legendas (ordem alfabética)
- const F=document.createElement('details');F.id='fontes';const src=['Câmaras Municipais e Juntas de Freguesia (contactos oficiais)','Copernicus EMS (área ardida 2024, EMSR748)','GDACS e tsunami.gov (tsunamis)','IFCN (trilhos e áreas naturais)','INE (concelhos)','IPMA (avisos, estações, sismos; dados abertos atualizados de hora a hora)','mapa uMap Meteo Madeira — ODbL 1.0','NASA GIBS / Worldview (satélite)','Open-Meteo (previsão e tempo agora, CC BY 4.0)','OpenFreeMap / OpenMapTiles (mapa base)','OpenStreetMap (© colaboradores, ODbL)','SESARAM (contactos de saúde)','USGS (sismos)','Wikidata (CC0)','Wikimedia Commons (fotos; autor e licença em cada foto)','Wikipédia (CC BY-SA)'].sort(CMP);
+ const F=document.createElement('details');F.id='fontes';const src=['Câmaras Municipais e Juntas de Freguesia (contactos oficiais)','Copernicus EMS (área ardida 2024, EMSR748)','GDACS e tsunami.gov (tsunamis)','IFCN (trilhos, áreas naturais e estado oficial dos percursos pedestres recomendados)','INE (concelhos)','IPMA (avisos, estações, sismos; dados abertos atualizados de hora a hora)','mapa uMap Meteo Madeira — ODbL 1.0','NASA GIBS / Worldview (satélite)','Open-Meteo (previsão e tempo agora, CC BY 4.0)','OpenFreeMap / OpenMapTiles (mapa base)','OpenStreetMap (© colaboradores, ODbL)','SESARAM (contactos de saúde)','USGS (sismos)','Wikidata (CC0)','Wikimedia Commons (fotos; autor e licença em cada foto)','Wikipédia (CC BY-SA)'].sort(CMP);
  const leg=['⚠️ aviso','⛔ fechado','☠️ caso extremo (aviso vermelho ou acima dos limites vermelhos)','⟳ camada viva (cópia com hora de leitura)','🟢 sem avisos','Cinzento: dado antigo (mais de 90 min)'].sort(CMP);
  F.innerHTML=`<summary><h2>Fontes e legendas</h2></summary><h3 class="uh">Fontes</h3><ul>${src.map(s=>`<li>${e(s)}</li>`).join('')}</ul><h3 class="uh">Legendas</h3><ul>${leg.map(s=>`<li>${e(s)}</li>`).join('')}</ul><p class="note">Camadas: mapa <a href="https://umap.openstreetmap.fr/pt-pt/map/meteo-madeira-estacoes-e-webcams-teste-1310_1472181" target="_blank" rel="noopener">uMap Meteo Madeira</a> (OSM/ODbL, licença <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">ODbL 1.0</a>), lido às ${e(META.readLabel)}.</p>`;
  L.after(F);
  document.querySelectorAll('[data-l]').forEach(c=>c.addEventListener('change',draw));draw()}
+function resumo(){const d=String(META.mapDescription||'').split(/\n\s*\*\*Legenda/)[0];if(!d.trim())return;const dd=document.getElementById('dd');const b=document.createElement('details');b.id='resumo';b.className='box';b.innerHTML=`<summary><b>📰 Resumo do dia</b></summary><div class="udesc">${md(d)}</div><small class="${readAge()>STALE?'stale':''}">lido às ${e(UPD?UPD.label:META.readLabel)}</small><p class="en" lang="en">EN: daily summary from the source map (validity, cyclones, satellite).</p>`;dd.querySelector('#acts').before(b)}
 async function init(){META=await (await fetch('data/umap/layers.json')).json();UL.push(...META.layers);
  try{UPD=await (await fetch('data/updated.json',{cache:'no-store'})).json()}catch(x){}
+ FRESH=readAge()<36e5;
  const up=document.getElementById('upd');if(up){const t=UPD?UPD.label:META.readLabel,old=readAge()>STALE;up.textContent=`Atualizado às ${t.split(' ')[1]} (${t.split(' ')[0]})${old?' · dados antigos':''}`;up.classList.toggle('stale',old)}
- for(const [slug,label,color,ext] of [['../ipma-estacoes','Estações IPMA (observação) ⟳','#0277bd','est'],['../ipma-sismos','Sismos IPMA ⟳','#6a1b9a','sis']]){try{const d=await (await fetch('data/umap/'+slug+'.geojson')).json();UL.push({id:'x'+ext,slug,name:label,label,color,live:true,ext,count:d.features.length,types:{Point:d.features.length}})}catch(x){}}panel();
+ for(const [slug,label,color,ext] of [['../ipma-estacoes','Estações IPMA (observação) ⟳','#0277bd','est'],['../ipma-sismos','Sismos IPMA ⟳','#6a1b9a','sis']]){try{const d=await (await fetch('data/umap/'+slug+'.geojson')).json();UL.push({id:'x'+ext,slug,name:label,label,color,live:true,ext,count:d.features.length,types:{Point:d.features.length}})}catch(x){}}panel();resumo();
  map.on('style.load',()=>{for(const o of UL)if(cbU(o.id).checked)ensure(o)});bind();window.UMAP_READY=1}
 init().catch(err=>console.error('uMap',err))})();

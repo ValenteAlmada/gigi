@@ -8,8 +8,11 @@ def get(u):
   return json.load(urllib.request.urlopen(q,timeout=60))
 def dig():
   h=hashlib.sha256()
-  for f in sorted(glob.glob(D+'/umap/*.geojson')+[D+'/ipma-estacoes.geojson',D+'/ipma-sismos.geojson']):
-    if os.path.exists(f):h.update(open(f,'rb').read())
+  for f in sorted(glob.glob(D+'/umap/*.geojson')+[D+'/ipma-estacoes.geojson',D+'/ipma-sismos.geojson',D+'/ifcn-estado.json']):
+    if not os.path.exists(f):continue
+    if f.endswith('layers.json'):
+      m=json.load(open(f));m.pop('read',None);m.pop('readLabel',None);h.update(json.dumps(m,sort_keys=True,ensure_ascii=False).encode())
+    else:h.update(open(f,'rb').read())
   return h.hexdigest()
 before=dig();errs=[]
 try:subprocess.run(['python3',os.path.join(R,'tools','umap_pull.py')],check=True)
@@ -41,8 +44,17 @@ try:
   fs.sort(key=lambda f:f['properties']['hora'],reverse=True)
   json.dump({'type':'FeatureCollection','features':fs},open(D+'/ipma-sismos.geojson','w'),ensure_ascii=False,separators=(',',':'))
 except Exception as e:errs.append('sismos: '+str(e))
+try:
+  import sys;sys.path.insert(0,os.path.join(R,'tools'));import ifcn
+  e=ifcn.estados()
+  if len(e)>=20:json.dump({'fonte':ifcn.URL,'percursos':e},open(D+'/ifcn-estado.json','w'),ensure_ascii=False,indent=0,sort_keys=True)
+  else:errs.append('IFCN: lista curta')
+except Exception as x:errs.append('IFCN: '+str(x))
 now=datetime.datetime.now(TZ)
-if dig()!=before or not os.path.exists(D+'/updated.json'):
+# atualiza a hora se o digesto mudou OU se passaram ≥55 min desde a última (para o site não ficar a cinzento)
+prev=json.load(open(D+'/updated.json'))['updated'] if os.path.exists(D+'/updated.json') else None
+age=None if not prev else (now-datetime.datetime.fromisoformat(prev)).total_seconds()
+if dig()!=before or not prev or (age is not None and age>=55*60):
   json.dump({'updated':now.isoformat(timespec='seconds'),'label':now.strftime('%d/%m %H:%M'),'errors':errs},open(D+'/updated.json','w'),ensure_ascii=False)
   print('mudou',now.isoformat())
 else:print('sem alterações')

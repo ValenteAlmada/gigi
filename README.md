@@ -21,5 +21,7 @@ Site estático (HTML/CSS/JS). Basta servir a pasta, por exemplo `python3 -m http
 - Ícone: ilustração própria do projeto.
 - Mapa base: OpenFreeMap / OpenMapTiles, © OpenStreetMap. Biblioteca: MapLibre GL JS 4.7.1 (BSD-3), alojada em `vendor/`.
 
+- Estado oficial dos percursos pedestres recomendados: página pública do IFCN, lida de hora a hora (`data/ifcn-estado.json`, `tools/ifcn.py`).
+
 ## Fonte de verdade
 Este repositório é a fonte de verdade do site.

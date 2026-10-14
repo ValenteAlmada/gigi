@@ -21,6 +21,7 @@ for i,l in enumerate(P.get('datalayers') or m['datalayers']):
   for f in g.get('features',[]):
     if not f.get('geometry') or not f['geometry'].get('coordinates'):continue
     p=f.get('properties',{});d=p.get('description') or ''
+    if 'Pin informativo (posição simbólica' in d:continue  # sem focos: camada vazia, sem pin simbólico
     for x in FR.findall(d):fontes[n].add(x.strip())
     f={'type':'Feature','geometry':{'type':f['geometry']['type'],'coordinates':r(f['geometry']['coordinates'])},'properties':{'name':p.get('name') or '','description':d}}
     fs.append(f);c=f['geometry']['coordinates']

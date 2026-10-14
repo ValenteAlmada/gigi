@@ -43,3 +43,5 @@ footer{padding:12px;font-size:16px;color:#ccc}footer a{color:#8fd3ff}
 #fontes li{font-size:16px;margin:4px 0}
 
 .upd{margin:0;font-size:16px;color:#cfe8ff}.upd.stale{color:#b3b3b3}#place{font-size:17px;min-height:44px}.err{font-size:17px;color:#ffcc80}.ifcn{font-size:16px}
+
+.dot.n,i.n{background:#9e9e9e!important}.en{font-size:16px;color:#595959;font-style:italic;margin:4px 0}#dd .en,#acts .en{color:#c7c7c7}.layer{font-size:16px;margin:0 0 6px;color:#333}#resumo{margin:8px 0;color:#111}#resumo .en{color:#595959}
