@@ -15,4 +15,5 @@ Site estático (HTML/CSS/JS). Basta servir a pasta, por exemplo `python3 -m http
 - Avisos meteorológicos: API aberta do IPMA (lidos em direto).
 - Previsão e ondulação: Open-Meteo (CC BY 4.0).
 - Resumos: Wikipédia em português (CC BY-SA).
+- Camadas temáticas (45 camadas: segurança, tempo, atividades, natureza/água, outros): cópia estática de 14-10-2026 do mapa uMap «Meteo Madeira» (https://umap.openstreetmap.fr/pt-pt/map/meteo-madeira-estacoes-e-webcams-teste-1310_1472181), licença ODbL 1.0, dados de base © colaboradores do OpenStreetMap (`data/umap/*.geojson`, índice em `data/umap/layers.json`). As camadas «vivas» do uMap (avisos, estações, webcams, sismos, incêndios) não são atualizadas aqui.
 - Mapa base: OpenFreeMap / OpenMapTiles, © OpenStreetMap. Biblioteca: MapLibre GL JS (BSD-3).

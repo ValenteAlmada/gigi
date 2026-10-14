@@ -30,3 +30,5 @@ footer{padding:12px;font-size:16px;color:#ccc}footer a{color:#8fd3ff}
 @media(min-width:900px){main{display:grid;grid-template-columns:400px 1fr;grid-template-rows:auto auto 1fr}#mapwrap{grid-column:2;grid-row:1/4}#map{height:calc(100vh - 44px - 72px)}
 #dd{grid-column:1;grid-row:1}#layers{grid-column:1;grid-row:2}.rules{grid-column:1;grid-row:3}
 #sheet{left:auto;right:16px;bottom:80px;width:420px;border-radius:16px}#bar{justify-content:flex-end}#bar>*{flex:0 0 300px}}
+
+.uh{font-size:17px;color:#8fd3ff;margin:10px 0 2px}.sw{display:inline-block;width:14px;height:14px;border-radius:50%;border:2px solid #fff;vertical-align:middle}#umapbox small{font-size:16px;color:#bbb}.upop .maplibregl-popup-content{max-height:50vh;overflow:auto;font-size:16px;color:#111}.udesc{margin:6px 0}.upop small{font-size:16px}
