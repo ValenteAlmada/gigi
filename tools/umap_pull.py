@@ -31,6 +31,9 @@ for i,l in enumerate(P.get('datalayers') or m['datalayers']):
   h=(i*0.618)%1;R,G,B=colorsys.hls_to_rgb(h,.45,.75);live='⟳' in n;base=n.replace('⟳','').strip()
   out.append(dict(id='u'+str(i),slug=s,name=n,label=(base.split(' · ',1)[1] if ' · ' in base else base)+(' ⟳' if live else ''),group=grp(s),count=len(fs),types=dict(collections.Counter(x['geometry']['type'] for x in fs)),color='#%02x%02x%02x'%(int(R*255),int(G*255),int(B*255)),live=live,umapColor=o.get('color'),umapIcon=o.get('iconClass') or o.get('iconUrl'),note=(o.get('description') or '').strip(),datalayer=l['id']))
 meta={'read':now.strftime('%Y-%m-%dT%H:%M:%S%z'),'readLabel':now.strftime('%d/%m %H:%M'),'mapName':P.get('name'),'licence':P.get('licence'),'mapDescription':P.get('description'),'layers':out,'fontes':{k:sorted(v) for k,v in fontes.items()}}
+import glob as _g
+for _f in _g.glob(D+'*.geojson'):
+  if os.path.basename(_f)[:-8] not in {o['slug'] for o in out}:os.remove(_f)  # camadas removidas no uMap
 json.dump(meta,open(D+'layers.json','w'),ensure_ascii=False,indent=1)
 json.dump(idx,open(D+'search.json','w'),ensure_ascii=False,separators=(',',':'))
 if __name__=='__main__':print(len(out),sum(x['count'] for x in out),meta['readLabel'],P.get('licence'))
