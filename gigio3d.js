@@ -335,6 +335,7 @@
   }
 
   function setSunLine(sun) {
+    if (!map.isStyleLoaded()) return;
     const len = sun.aboveHorizon ? 7000 : 2000;
     const end = destination(point.lat, point.lon, sun.azimuthDeg, len);
     const gj = { type: 'Feature', geometry: { type: 'LineString', coordinates: [[point.lon, point.lat], [end.lon, end.lat]] }, properties: {} };
@@ -347,7 +348,7 @@
       map.addLayer({ id: 'gpt', type: 'circle', source: 'gpt', paint: { 'circle-radius': 7, 'circle-color': '#e2a45a', 'circle-stroke-width': 2, 'circle-stroke-color': '#fff' } });
     } else map.getSource('gpt').setData({ type: 'Feature', geometry: { type: 'Point', coordinates: [point.lon, point.lat] }, properties: {} });
     try {
-      map.setLight({
+      if (map.isStyleLoaded()) map.setLight({
         anchor: 'map',
         position: [1.15, sun.azimuthDeg, Math.min(180, Math.max(0, 90 - sun.altitudeDeg))],
         intensity: sun.aboveHorizon ? 0.65 : 0.12,
@@ -361,6 +362,7 @@
   }
 
   function addPlacesLayers() {
+    if (!map.isStyleLoaded()) return;
     const fuels = { type: 'FeatureCollection', features: places.fuels.map((f) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [f.lon, f.lat] }, properties: f })) };
     const ants = { type: 'FeatureCollection', features: places.antennas.map((a) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [a.lon, a.lat] }, properties: { ops: a.operators.join(',') } })) };
     if (map.getSource('gfuel')) {
@@ -437,8 +439,6 @@
 
   // boot
   ensurePanel();
-  agora();
-  addPeakLabels();
   map.on('click', (e) => {
     if (e.originalEvent && e.originalEvent.target && e.originalEvent.target.closest && e.originalEvent.target.closest('.pklbl,.mk')) return;
     peakId = null;
@@ -446,10 +446,14 @@
     dPk();
     refresh();
   });
-  map.on('style.load', onStyle);
-  loadPlaces().then(refresh);
-  // open on Areeiro framing once (only nudge if near default)
-  try {
-    if (window.MAP_3D) map.jumpTo({ center: [PEAKS[2].lon, PEAKS[2].lat], zoom: 12.1, pitch: 64, bearing: -24 });
-  } catch (e) {}
+  map.on('style.load', () => { onStyle(); refresh(); });
+  function start() {
+    agora();
+    addPeakLabels();
+    loadPlaces().then(refresh);
+    try {
+      if (window.MAP_3D) map.jumpTo({ center: [PEAKS[2].lon, PEAKS[2].lat], zoom: 12.1, pitch: 64, bearing: -24 });
+    } catch (e) {}
+  }
+  if (map.isStyleLoaded()) start(); else map.once('load', start);
 })();
