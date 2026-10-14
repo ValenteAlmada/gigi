@@ -25,3 +25,12 @@ Site estático (HTML/CSS/JS). Basta servir a pasta, por exemplo `python3 -m http
 
 ## Fonte de verdade
 Este repositório é a fonte de verdade do site.
+
+## Variantes de aspeto
+- `/` — aspeto principal
+- `/tech/` — tema ardósia/ciano
+- `/cypherpunk/` — tema terminal
+- `/3d/` — mapa em 3D (terreno Terrain Tiles / AWS Open Data, hillshade, edifícios extrudidos, câmara inclinada). Em dispositivos com WebGL fraco cai para 2D; `?3d=forcar` força o 3D. Atribuição do relevo: Copernicus EU-DEM, USGS SRTM/GMTED2010, NOAA ETOPO1.
+
+## Observatório Oceânico da Madeira (OOM)
+O site ponta para https://oom.arditi.pt/ (previsões do mar, THREDDS em https://oomdata.arditi.pt/thredds/). Os dados **não** são copiados para este repositório: nas páginas oficiais não foi encontrada uma licença de reutilização dos dados (só EULAs das apps MadeiraOcean/MadeiraWeather). Ligação em Fontes e nas fichas de praias, mar e canyons.

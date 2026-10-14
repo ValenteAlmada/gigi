@@ -1,0 +1,26 @@
+<!doctype html><html lang="pt-PT"><head><meta charset="utf-8"><base href="../"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Madeira – Tempo & Segurança (3D)</title><meta name="description" content="Tempo, avisos e segurança na Madeira e Porto Santo. Projeto livre, sem fins comerciais.">
+<meta name="theme-color" content="#05101a"><link rel="manifest" href="manifest.json"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="stylesheet" href="vendor/maplibre-gl.css"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="3d/theme.css"><script>window.MAP_STYLE="https://tiles.openfreemap.org/styles/dark";window.MAP_3D=true</script></head><body>
+<header id="top"><h1>Madeira – Tempo &amp; Segurança</h1><p id="upd" class="upd"></p></header>
+<div id="offline" hidden></div>
+<main>
+<div id="mapwrap"><div id="map" role="region" aria-label="Mapa 3D"></div>
+<div class="hud tl" aria-live="off"><span class="k">ÚLTIMA ATUALIZAÇÃO</span><span id="hudupd" class="v">—</span></div>
+<div class="hud bl"><span class="k">AGORA</span><span id="hudwx" class="v">A carregar…</span></div>
+<div class="hud br" id="hudctl" role="group" aria-label="Câmara"><button type="button" id="tog3d" aria-pressed="true">Vista 3D</button><button type="button" data-cam="rl" aria-label="Rodar para a esquerda">⟲ Rodar</button><button type="button" data-cam="rr" aria-label="Rodar para a direita">Rodar ⟳</button><button type="button" data-cam="tu" aria-label="Inclinar mais">▲ Inclinar</button><button type="button" data-cam="td" aria-label="Inclinar menos">▼ Inclinar</button><button type="button" data-cam="n" aria-label="Apontar a norte">N Norte</button></div>
+<p id="hudfb" class="hud fb" hidden>Modo 2D: o seu dispositivo tem gráficos limitados. <a href="3d/?3d=forcar">Tentar 3D</a></p>
+<button id="chips" aria-expanded="false" aria-controls="dd" title="Hoje dá ou não dá? Toque para ver detalhes"></button></div>
+<div id="hudpanel"><details id="dd"><summary><h2>Hoje dá ou não dá?</h2></summary><ul id="acts"><li>A carregar…</li></ul><small id="ddtime"></small></details>
+<details id="layers"><summary><h2>Camadas</h2></summary>
+<fieldset><legend>Tempo</legend><label><input type="checkbox" data-l="wx" checked> Pontos Open-Meteo</label><label><input type="checkbox" data-l="ipma" checked> Avisos IPMA (zonas aproximadas)</label></fieldset>
+<fieldset><legend>Terra</legend><label><input type="checkbox" data-l="view"> Miradouros</label><label><input type="checkbox" data-l="mon"> Monumentos</label></fieldset>
+<fieldset><legend>Serviços</legend><label><input type="checkbox" data-l="hosp"> Hospitais e clínicas</label><label><input type="checkbox" data-l="pharm"> Farmácias</label></fieldset>
+<ul id="ltimes"></ul><p class="note" id="osmdate"></p></details>
+<p class="rules">ℹ️ Regras de exemplo, ainda a validar com guias locais. Informação indicativa.</p></div>
+</main>
+<aside id="sheet" hidden aria-live="polite"><button id="close" aria-label="Fechar">✕</button><div id="sheetc"></div></aside>
+<footer><p><b>Informação não vinculativa. Em emergência ligue 112.</b></p><p>Versão de teste do aspeto (3D) · <a href="./">versão principal</a></p><p>Dados: © colaboradores <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL) · <a href="https://open-meteo.com">Open-Meteo</a> (CC BY 4.0) · <a href="https://www.ipma.pt">IPMA</a> · <a href="https://pt.wikipedia.org">Wikipédia</a> (CC BY-SA) · Camadas: mapa <a href="https://umap.openstreetmap.fr/pt-pt/map/meteo-madeira-estacoes-e-webcams-teste-1310_1472181">uMap Meteo Madeira</a> (OSM/ODbL, licença <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a>) · <a href="https://maplibre.org">MapLibre</a> (BSD-3, alojado no site) · <a href="https://openfreemap.org">OpenFreeMap</a> · relevo 3D <a href="https://registry.opendata.aws/terrain-tiles/">Terrain Tiles (AWS Open Data)</a>: Copernicus EU-DEM, USGS SRTM/GMTED2010, NOAA ETOPO1 (<a href="https://github.com/tilezen/joerd/blob/master/docs/attribution.md">atribuição</a>) · estado do mar: <a href="https://oom.arditi.pt/">OOM/ARDITI</a> (só ligação). Zonas de aviso: polígonos do IPMA (md-ww.geojson), zonas aproximadas, licença por confirmar. Projeto livre, sem fins comerciais.</p></footer>
+<nav id="bar"><a class="sos" href="tel:112">📞 Ligar 112</a><button id="share">📍 Partilhar a minha localização</button></nav>
+<div id="toast" role="status" hidden></div>
+<script src="vendor/maplibre-gl.js"></script><script src="app.js"></script><script src="umap.js"></script><script src="3d/hud.js"></script></body></html>
