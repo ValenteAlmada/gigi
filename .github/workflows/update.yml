@@ -1,0 +1,39 @@
+name: Atualizar dados (hora a hora)
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Descarregar dados
+        run: python3 tools/update.py
+      - name: Gravar só se mudou
+        id: commit
+        run: |
+          if git diff --quiet -- data/updated.json && [ -z "$(git ls-files --others --exclude-standard data/updated.json)" ]; then
+            echo "Sem alterações nos dados"; git checkout -- . ; echo "changed=0" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Dados atualizados $(python3 -c 'import json;print(json.load(open("data/updated.json"))["label"])')"
+          git push
+          echo "changed=1" >> "$GITHUB_OUTPUT"
+      - name: Publicar Pages
+        if: steps.commit.outputs.changed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pedido de publicação falhou (a publicação automática pelo push deve ocorrer na mesma)"

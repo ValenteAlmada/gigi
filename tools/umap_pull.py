@@ -1,6 +1,8 @@
 # Descarrega todas as camadas do mapa uMap 1472181 para prototipo/data/umap
 import json,urllib.request,re,unicodedata,collections,colorsys,datetime,zoneinfo
-D='/workspace/bettybot/meteo/prototipo/data/umap/'
+import os
+D=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','data','umap')+os.sep
+os.makedirs(D,exist_ok=True)
 m=json.load(urllib.request.urlopen('https://umap.openstreetmap.fr/en/map/1472181/geojson/'))
 P=m['properties'];now=datetime.datetime.now(zoneinfo.ZoneInfo('Atlantic/Madeira'))
 def r(c): return [r(x) for x in c] if isinstance(c,list) and c and isinstance(c[0],list) else [round(v,5) for v in c]
@@ -30,4 +32,4 @@ for i,l in enumerate(P.get('datalayers') or m['datalayers']):
 meta={'read':now.strftime('%Y-%m-%dT%H:%M:%S%z'),'readLabel':now.strftime('%d/%m %H:%M'),'mapName':P.get('name'),'licence':P.get('licence'),'mapDescription':P.get('description'),'layers':out,'fontes':{k:sorted(v) for k,v in fontes.items()}}
 json.dump(meta,open(D+'layers.json','w'),ensure_ascii=False,indent=1)
 json.dump(idx,open(D+'search.json','w'),ensure_ascii=False,separators=(',',':'))
-print(len(out),sum(x['count'] for x in out),meta['readLabel'],P.get('licence'));print(json.dumps(meta['fontes'],ensure_ascii=False)[:3000]);print((P.get('description') or '')[:1500])
+if __name__=='__main__':print(len(out),sum(x['count'] for x in out),meta['readLabel'],P.get('licence'))
