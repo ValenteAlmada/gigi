@@ -145,3 +145,8 @@ button.info,.info{font-size:16px!important;min-height:44px;min-width:44px;color:
  #chips{top:12px!important;left:440px!important;right:60px!important;max-height:52px;overflow:hidden}
  .hud.tl{top:76px!important;left:440px!important;bottom:auto!important}
 }
+
+/* Mapa de fundo */
+#fundo fieldset label{display:flex;align-items:center;gap:10px;min-height:44px;font-size:16px;cursor:pointer}
+#fundo input[type=radio]{width:20px;height:20px;accent-color:var(--ac);flex-shrink:0}
+#fundo .note{font-size:16px;line-height:1.35;color:var(--mut);margin:8px 0 0}
