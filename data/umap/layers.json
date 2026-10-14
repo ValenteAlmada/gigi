@@ -1,15 +1,49 @@
 {
- "read": "2026-10-14T14:29:44+0100",
- "readLabel": "14/10 14:29",
+ "read": "2026-10-14T19:03:26+0100",
+ "readLabel": "14/10 19:03",
  "mapName": "Meteo Madeira – atividades, previsão, estações e webcams (mapa não comercial)",
  "licence": {
   "url": "https://opendatacommons.org/licenses/odbl/1-0/",
   "name": "ODbL 1.0"
  },
- "mapDescription": "**Última atualização: 14/10/2026 14:19 (hora da Madeira) · dados válidos até 17:19 (14/10); depois disso, ou se esta nota tiver mais de 6 h, ignora o semáforo (dados antigos).**\n🛰️ Satélite (imagem de hoje): [[https://worldview.earthdata.nasa.gov/?v=-17.9,32.2,-15.7,33.4&l=VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Terra_CorrectedReflectance_TrueColor,Coastlines_15m&t=2026-10-14|abrir]] · 🚨 Avisos (2.ª verificação): sem avisos amarelo/laranja/vermelho para a Madeira/Porto Santo\nPrevisões e valores calculados são estimativas; os avisos oficiais do IPMA prevalecem.\n✅ Sem avisos IPMA amarelo/laranja/vermelho para a Madeira/Porto Santo neste momento. [[https://www.ipma.pt/pt/otempo/prev-sam/?p=MAD|Avisos IPMA]]\n🗓️ Resumo automático: próximas 24 h — sem chuva relevante; média nas ilhas 0.0 mm. Ver vento e mar nas camadas respetivas.\n🌀 Ciclones tropicais: nenhum tropical ativo a <2500 km da Madeira (2 ativos no Atlântico/Pacífico).\n🧭 Índice Kp (últimas 3 h): 2.3 — calmo; GPS normal. [[https://www.swpc.noaa.gov/|mais]]\n🌊 Temperatura do mar e anomalias [[https://coralreefwatch.noaa.gov/product/5km/index.php|mapa]] · ENSO [[https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/|boletim]] (influência na Madeira fraca)\n\n**Legenda (cor do pin = condições para a atividade):** 🟢 bom · 🟡/🟠 atenção · 🔴 evitar · ⚪ sem dados · ⚠ triângulo = aviso IPMA laranja/vermelho. Linhas de canyon a azul. Estações: cor = temperatura observada (azul <10 · azul-claro 10–15 · verde 15–20 · laranja 20–25 · vermelho >25 °C; cinzento = sem observação nas últimas 3 h).\nAo abrir só a camada Tempo · Estações está ligada; liga as outras no painel de camadas (olho). Camadas por tema; ⟳ = camada viva (atualizada automaticamente), sem ⟳ = camada fixa. Pesquisa por nome na lupa. Ilhas Selvagens: ~280 km a sul (afasta o zoom).\nRadar e trovoada (links externos): [[https://www.rainviewer.com/map.html?loc=32.75,-16.95,8|Radar de chuva]] · [[https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=32.75;x=-16.95;z=8;d=2;dl=2;dc=0;|Trovoada]]\n\nMapa não comercial. Informação indicativa, reunida a partir de fontes públicas e atualizada automaticamente; pode ter erros ou atrasos. Não substitui os avisos oficiais do IPMA e da Proteção Civil, nem as licenças e regras das autoridades. As atividades na natureza têm riscos: confirma sempre as condições no local e decide por tua conta. Em emergência, liga 112.\n\nDados: © contribuidores OpenStreetMap (ODbL) · Open-Meteo (CC BY 4.0). Restantes fontes e licenças: lista à parte (FONTES_MAPA). A licença ODbL do mapa aplica-se à compilação.\nℹ️ Informação não vinculativa. Confirmar junto das autoridades competentes (IPMA, Proteção Civil, IFCN) e de operadores locais.",
+ "mapDescription": "**Última atualização: 14/10/2026 18:44 (hora da Madeira) · dados válidos até 21:44 (14/10); depois disso, ou se esta nota tiver mais de 6 h, ignora o semáforo (dados antigos).**\n🛰️ Satélite (imagem de hoje): [[https://worldview.earthdata.nasa.gov/?v=-17.9,32.2,-15.7,33.4&l=VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Terra_CorrectedReflectance_TrueColor,Coastlines_15m&t=2026-10-14|abrir]] · 🚨 Avisos (2.ª verificação): sem avisos amarelo/laranja/vermelho para a Madeira/Porto Santo\nPrevisões e valores calculados são estimativas; os avisos oficiais do IPMA prevalecem.\n✅ Sem avisos IPMA amarelo/laranja/vermelho para a Madeira/Porto Santo neste momento. [[https://www.ipma.pt/pt/otempo/prev-sam/?p=MAD|Avisos IPMA]]\n🗓️ Resumo automático: próximas 24 h — sem chuva relevante; média nas ilhas 0.0 mm. Ver vento e mar nas camadas respetivas.\n🌀 Ciclones tropicais: nenhum tropical ativo a <2500 km da Madeira (2 ativos no Atlântico/Pacífico).\n🧭 Índice Kp (últimas 3 h): 2.0 — calmo; GPS normal. [[https://www.swpc.noaa.gov/|mais]]\n🌊 Temperatura do mar e anomalias [[https://coralreefwatch.noaa.gov/product/5km/index.php|mapa]] · ENSO [[https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/|boletim]] (influência na Madeira fraca)\n\n**Legenda (cor do pin = condições para a atividade):** 🟢 sem sinal de risco no modelo (indicativo, não é garantia) · 🟡/🟠 atenção · 🔴 evitar · ⚪ sem dados · ⚠ triângulo = aviso IPMA laranja/vermelho. Linhas de canyon a azul. Estações: cor = temperatura observada (azul <10 · azul-claro 10–15 · verde 15–20 · laranja 20–25 · vermelho >25 °C; cinzento = sem observação nas últimas 3 h).\nAo abrir só a camada Tempo · Estações está ligada; liga as outras no painel de camadas (olho). Camadas por tema; ⟳ = camada viva (atualizada automaticamente), sem ⟳ = camada fixa. Pesquisa por nome na lupa. Ilhas Selvagens: ~280 km a sul (afasta o zoom).\nRadar e trovoada (links externos): [[https://www.rainviewer.com/map.html?loc=32.75,-16.95,8|Radar de chuva]] · [[https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=32.75;x=-16.95;z=8;d=2;dl=2;dc=0;|Trovoada]]\n\nMapa não comercial. Informação indicativa, reunida a partir de fontes públicas e atualizada automaticamente; pode ter erros ou atrasos. Não substitui os avisos oficiais do IPMA e da Proteção Civil, nem as licenças e regras das autoridades. As atividades na natureza têm riscos: confirma sempre as condições no local e decide por tua conta. Em emergência, liga 112.\n\nDados: © contribuidores OpenStreetMap (ODbL) · [[https://open-meteo.com/|Open-Meteo]] (CC BY 4.0). A licença ODbL do mapa aplica-se à compilação.\nℹ️ Informação não vinculativa. Confirmar junto das autoridades competentes (IPMA, Proteção Civil, IFCN) e de operadores locais.",
  "layers": [
   {
    "id": "u0",
+   "slug": "agricultura-avisos-avisos-e-calendario",
+   "name": "Agricultura · Avisos · Avisos e calendário ⟳",
+   "label": "Avisos · Avisos e calendário ⟳",
+   "group": "Outros",
+   "count": 11,
+   "types": {
+    "Point": 11
+   },
+   "color": "#c81c1c",
+   "live": true,
+   "umapColor": "DarkOrange",
+   "umapIcon": null,
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
+   "datalayer": "c5b3af6d-7173-46e7-be62-77d708527987"
+  },
+  {
+   "id": "u1",
+   "slug": "energia-combustivel-gpl-e-gnv",
+   "name": "Energia · Combustível · GPL e GNV",
+   "label": "Combustível · GPL e GNV",
+   "group": "Outros",
+   "count": 1,
+   "types": {
+    "Point": 1
+   },
+   "color": "#1c4ec8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "a893a32b-2b39-48a7-bef0-861bfb6f247a"
+  },
+  {
+   "id": "u2",
    "slug": "energia",
    "name": "Energia",
    "label": "Energia",
@@ -18,15 +52,15 @@
    "types": {
     "Point": 166
    },
-   "color": "#c81c1c",
+   "color": "#81c81c",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "d202ddb7-ed2f-443f-90ee-6e72eb67a3b2"
+   "datalayer": "17df9f0e-1ffd-4400-9319-f16b7b32e0d0"
   },
   {
-   "id": "u1",
+   "id": "u3",
    "slug": "lazer-bicicleta",
    "name": "Lazer · Bicicleta",
    "label": "Bicicleta",
@@ -36,24 +70,58 @@
     "MultiLineString": 32,
     "Point": 60
    },
-   "color": "#1c4ec8",
+   "color": "#c81cb3",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "21e60b9e-e8ed-4a7a-b327-af69c196ba94"
+   "datalayer": "f3fd87eb-71c2-4716-b660-4d1fd0a08625"
   },
   {
-   "id": "u2",
-   "slug": "lazer-campismo-e-caravanismo",
-   "name": "Lazer · Campismo e caravanismo",
-   "label": "Campismo e caravanismo",
+   "id": "u4",
+   "slug": "energia-combustivel-postos-e-carregamento-eletrico",
+   "name": "Energia · Combustível · Postos e carregamento elétrico",
+   "label": "Combustível · Postos e carregamento elétrico",
+   "group": "Outros",
+   "count": 166,
+   "types": {
+    "Point": 166
+   },
+   "color": "#1cc8ab",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "d202ddb7-ed2f-443f-90ee-6e72eb67a3b2"
+  },
+  {
+   "id": "u5",
+   "slug": "energia-gas-venda-de-botijas",
+   "name": "Energia · Gás · Venda de botijas",
+   "label": "Gás · Venda de botijas",
+   "group": "Outros",
+   "count": 2,
+   "types": {
+    "Point": 2
+   },
+   "color": "#c8791c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "2201975b-68e3-4d95-afe2-4e317af737ff"
+  },
+  {
+   "id": "u6",
+   "slug": "lazer-alojamento-campismo-e-caravanismo",
+   "name": "Lazer · Alojamento · Campismo e caravanismo",
+   "label": "Alojamento · Campismo e caravanismo",
    "group": "Atividades",
    "count": 30,
    "types": {
     "Point": 30
    },
-   "color": "#81c81c",
+   "color": "#471cc8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
@@ -61,16 +129,16 @@
    "datalayer": "93762064-6b94-4297-87fd-4693e7aca0a5"
   },
   {
-   "id": "u3",
-   "slug": "lazer-golfe",
-   "name": "Lazer · Golfe",
-   "label": "Golfe",
+   "id": "u7",
+   "slug": "lazer-desporto-golfe",
+   "name": "Lazer · Desporto · Golfe",
+   "label": "Desporto · Golfe",
    "group": "Atividades",
    "count": 4,
    "types": {
     "Polygon": 4
    },
-   "color": "#c81cb3",
+   "color": "#24c81c",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
@@ -78,16 +146,34 @@
    "datalayer": "c8c605d6-1329-4599-a6b2-d7dd5e2d8fe1"
   },
   {
-   "id": "u4",
-   "slug": "lazer-offroad",
-   "name": "Lazer · Offroad",
-   "label": "Offroad",
+   "id": "u8",
+   "slug": "lazer-percursos-bicicleta",
+   "name": "Lazer · Percursos · Bicicleta",
+   "label": "Percursos · Bicicleta",
+   "group": "Atividades",
+   "count": 92,
+   "types": {
+    "MultiLineString": 32,
+    "Point": 60
+   },
+   "color": "#c81c56",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "21e60b9e-e8ed-4a7a-b327-af69c196ba94"
+  },
+  {
+   "id": "u9",
+   "slug": "lazer-percursos-offroad",
+   "name": "Lazer · Percursos · Offroad",
+   "label": "Percursos · Offroad",
    "group": "Atividades",
    "count": 68,
    "types": {
     "LineString": 68
    },
-   "color": "#1cc8ab",
+   "color": "#1c88c8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
@@ -95,68 +181,16 @@
    "datalayer": "b7783ce3-0781-475e-9cf6-2b7445c08900"
   },
   {
-   "id": "u5",
-   "slug": "mar-mar",
-   "name": "Mar · Mar ⟳",
-   "label": "Mar ⟳",
-   "group": "Atividades",
-   "count": 17,
-   "types": {
-    "Point": 17
-   },
-   "color": "#c8791c",
-   "live": true,
-   "umapColor": "DarkOrange",
-   "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
-   "datalayer": "efef7285-13a3-4c9a-9e3a-7b11d7e08647"
-  },
-  {
-   "id": "u6",
-   "slug": "mar-mergulho",
-   "name": "Mar · Mergulho",
-   "label": "Mergulho",
-   "group": "Atividades",
-   "count": 2,
-   "types": {
-    "Point": 2
-   },
-   "color": "#471cc8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "4b9b30a8-1dfe-4ce4-830e-659034039e62"
-  },
-  {
-   "id": "u7",
-   "slug": "mar-pesca",
-   "name": "Mar · Pesca",
-   "label": "Pesca",
-   "group": "Atividades",
-   "count": 26,
-   "types": {
-    "Point": 15,
-    "MultiPolygon": 11
-   },
-   "color": "#24c81c",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "0079e495-18cc-46ed-be12-cac384321c3d"
-  },
-  {
-   "id": "u8",
-   "slug": "mar-praias",
-   "name": "Mar · Praias",
-   "label": "Praias",
+   "id": "u10",
+   "slug": "mar-balnear-praias",
+   "name": "Mar · Balnear · Praias",
+   "label": "Balnear · Praias",
    "group": "Atividades",
    "count": 80,
    "types": {
     "Point": 80
    },
-   "color": "#c81c56",
+   "color": "#bbc81c",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
@@ -164,16 +198,68 @@
    "datalayer": "b09eda15-fa1d-4f82-80ba-63197e00ed07"
   },
   {
-   "id": "u9",
-   "slug": "mar-surf",
-   "name": "Mar · Surf",
-   "label": "Surf",
+   "id": "u11",
+   "slug": "mar-condicoes-estado-do-mar",
+   "name": "Mar · Condições · Estado do mar ⟳",
+   "label": "Condições · Estado do mar ⟳",
+   "group": "Atividades",
+   "count": 17,
+   "types": {
+    "Point": 17
+   },
+   "color": "#a41cc8",
+   "live": true,
+   "umapColor": "DarkOrange",
+   "umapIcon": null,
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
+   "datalayer": "efef7285-13a3-4c9a-9e3a-7b11d7e08647"
+  },
+  {
+   "id": "u12",
+   "slug": "mar-desporto-mergulho",
+   "name": "Mar · Desporto · Mergulho",
+   "label": "Desporto · Mergulho",
+   "group": "Atividades",
+   "count": 2,
+   "types": {
+    "Point": 2
+   },
+   "color": "#1cc872",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "4b9b30a8-1dfe-4ce4-830e-659034039e62"
+  },
+  {
+   "id": "u13",
+   "slug": "mar-desporto-pesca",
+   "name": "Mar · Desporto · Pesca",
+   "label": "Desporto · Pesca",
+   "group": "Atividades",
+   "count": 26,
+   "types": {
+    "Point": 15,
+    "MultiPolygon": 11
+   },
+   "color": "#c83f1c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "0079e495-18cc-46ed-be12-cac384321c3d"
+  },
+  {
+   "id": "u14",
+   "slug": "mar-desporto-surf",
+   "name": "Mar · Desporto · Surf",
+   "label": "Desporto · Surf",
    "group": "Atividades",
    "count": 26,
    "types": {
     "Point": 26
    },
-   "color": "#1c88c8",
+   "color": "#1c2bc8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
@@ -181,50 +267,33 @@
    "datalayer": "b51567e8-61cc-4c66-ae70-7721fef8875e"
   },
   {
-   "id": "u10",
-   "slug": "mobilidade-autocarros-funchal",
-   "name": "Mobilidade · Autocarros – Funchal",
-   "label": "Autocarros – Funchal",
+   "id": "u15",
+   "slug": "mobilidade-estacionamento-bicicletas",
+   "name": "Mobilidade · Estacionamento · Bicicletas",
+   "label": "Estacionamento · Bicicletas",
    "group": "Outros",
-   "count": 2368,
+   "count": 22,
    "types": {
-    "Point": 2368
+    "Point": 22
    },
-   "color": "#bbc81c",
+   "color": "#5ec81c",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "0785b50c-7be3-40b7-89c2-21d754bc5077"
+   "datalayer": "a036c510-2550-48b2-8844-f7c376b41527"
   },
   {
-   "id": "u11",
-   "slug": "mobilidade-autocarros-interurbanos",
-   "name": "Mobilidade · Autocarros – interurbanos",
-   "label": "Autocarros – interurbanos",
-   "group": "Outros",
-   "count": 874,
-   "types": {
-    "Point": 874
-   },
-   "color": "#a41cc8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "b05b8716-1cfd-4fb5-95d6-48ec3f3265ce"
-  },
-  {
-   "id": "u12",
-   "slug": "mobilidade-estacionamento",
-   "name": "Mobilidade · Estacionamento",
-   "label": "Estacionamento",
+   "id": "u16",
+   "slug": "mobilidade-estacionamento-carros",
+   "name": "Mobilidade · Estacionamento · Carros",
+   "label": "Estacionamento · Carros",
    "group": "Outros",
    "count": 426,
    "types": {
     "Point": 426
    },
-   "color": "#1cc872",
+   "color": "#c81c90",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
@@ -232,41 +301,24 @@
    "datalayer": "071c6c56-9340-41d4-b4d9-f39cd4084c5c"
   },
   {
-   "id": "u13",
-   "slug": "mobilidade-estradas",
-   "name": "Mobilidade · Estradas",
-   "label": "Estradas",
+   "id": "u17",
+   "slug": "mobilidade-estacionamento-motos",
+   "name": "Mobilidade · Estacionamento · Motos",
+   "label": "Estacionamento · Motos",
    "group": "Outros",
-   "count": 387,
+   "count": 89,
    "types": {
-    "LineString": 387
+    "Point": 89
    },
-   "color": "#c83f1c",
+   "color": "#1cc2c8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "ea11cb4f-fcee-4d11-a78f-325b8e909641"
+   "datalayer": "8fb39ccf-c3c9-4f5c-be24-5fcea8a8038d"
   },
   {
-   "id": "u14",
-   "slug": "mobilidade-taxis",
-   "name": "Mobilidade · Táxis",
-   "label": "Táxis",
-   "group": "Outros",
-   "count": 59,
-   "types": {
-    "Point": 59
-   },
-   "color": "#1c2bc8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "0e9b26e4-7c72-4167-baae-99cd5f42d8ac"
-  },
-  {
-   "id": "u15",
+   "id": "u18",
    "slug": "montanha-base-jump",
    "name": "Montanha · Base jump",
    "label": "Base jump",
@@ -275,33 +327,66 @@
    "types": {
     "Point": 5
    },
-   "color": "#5ec81c",
+   "color": "#c89c1c",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "fa459121-effb-4bda-870c-31930fd9fade"
+   "datalayer": "841cdaf4-dce9-42c4-b1a9-a8379c5dd448"
   },
   {
-   "id": "u16",
-   "slug": "montanha-caminho-real",
-   "name": "Montanha · Caminho Real",
-   "label": "Caminho Real",
-   "group": "Atividades",
-   "count": 53,
+   "id": "u19",
+   "slug": "mobilidade-rede-viaria-estradas",
+   "name": "Mobilidade · Rede viária · Estradas",
+   "label": "Rede viária · Estradas",
+   "group": "Outros",
+   "count": 387,
    "types": {
-    "MultiLineString": 6,
-    "Point": 47
+    "LineString": 387
    },
-   "color": "#c81c90",
+   "color": "#6a1cc8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "f5f52d97-fdfb-44be-b7bd-a14361782ef4"
+   "datalayer": "ea11cb4f-fcee-4d11-a78f-325b8e909641"
   },
   {
-   "id": "u17",
+   "id": "u20",
+   "slug": "mobilidade-transportes-autocarros-funchal",
+   "name": "Mobilidade · Transportes · Autocarros – Funchal",
+   "label": "Transportes · Autocarros – Funchal",
+   "group": "Outros",
+   "count": 2368,
+   "types": {
+    "Point": 2368
+   },
+   "color": "#1cc838",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "0785b50c-7be3-40b7-89c2-21d754bc5077"
+  },
+  {
+   "id": "u21",
+   "slug": "mobilidade-transportes-autocarros-interurbanos",
+   "name": "Mobilidade · Transportes · Autocarros – interurbanos",
+   "label": "Transportes · Autocarros – interurbanos",
+   "group": "Outros",
+   "count": 874,
+   "types": {
+    "Point": 874
+   },
+   "color": "#c81c33",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "b05b8716-1cfd-4fb5-95d6-48ec3f3265ce"
+  },
+  {
+   "id": "u22",
    "slug": "montanha-canyons",
    "name": "Montanha · Canyons",
    "label": "Canyons",
@@ -311,124 +396,36 @@
     "Point": 174,
     "LineString": 85
    },
-   "color": "#1cc2c8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "f8ebe182-e207-4907-8276-34ad9448bce9"
-  },
-  {
-   "id": "u18",
-   "slug": "montanha-escalada",
-   "name": "Montanha · Escalada",
-   "label": "Escalada",
-   "group": "Atividades",
-   "count": 12,
-   "types": {
-    "Point": 12
-   },
-   "color": "#c89c1c",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "1b549248-2513-4cbb-ab39-fc87a9540c45"
-  },
-  {
-   "id": "u19",
-   "slug": "montanha-parapente",
-   "name": "Montanha · Parapente",
-   "label": "Parapente",
-   "group": "Atividades",
-   "count": 53,
-   "types": {
-    "Point": 53
-   },
-   "color": "#6a1cc8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "c98605c1-943d-46e6-b628-c63d13ca6991"
-  },
-  {
-   "id": "u20",
-   "slug": "montanha-provas-de-trail-e-skyrunning",
-   "name": "Montanha · Provas de trail e skyrunning",
-   "label": "Provas de trail e skyrunning",
-   "group": "Atividades",
-   "count": 103,
-   "types": {
-    "LineString": 4,
-    "Point": 99
-   },
-   "color": "#1cc838",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "c244e917-414a-40b5-8b28-32577077db6e"
-  },
-  {
-   "id": "u21",
-   "slug": "montanha-trilhos-e-levadas",
-   "name": "Montanha · Trilhos e levadas",
-   "label": "Trilhos e levadas",
-   "group": "Atividades",
-   "count": 127,
-   "types": {
-    "MultiLineString": 43,
-    "Point": 84
-   },
-   "color": "#c81c33",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "47ae90a2-520b-405d-8c1f-2ab4cd34a41e"
-  },
-  {
-   "id": "u22",
-   "slug": "natureza-areas-naturais",
-   "name": "Natureza · Áreas naturais",
-   "label": "Áreas naturais",
-   "group": "Natureza/Água",
-   "count": 161,
-   "types": {
-    "MultiPolygon": 83,
-    "Point": 78
-   },
    "color": "#1c65c8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "273f1b2e-9bd9-447d-9f25-6d3f9f7b7e1c"
+   "datalayer": "bc5a5bf7-19e8-4fa9-a250-298977788e21"
   },
   {
    "id": "u23",
-   "slug": "natureza-astronomia",
-   "name": "Natureza · Astronomia",
-   "label": "Astronomia",
-   "group": "Natureza/Água",
-   "count": 8,
+   "slug": "mobilidade-transportes-taxis",
+   "name": "Mobilidade · Transportes · Táxis",
+   "label": "Transportes · Táxis",
+   "group": "Outros",
+   "count": 59,
    "types": {
-    "Point": 8
+    "Point": 59
    },
    "color": "#97c81c",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "7ba3c242-0d09-4e7c-8746-eef658772b43"
+   "datalayer": "0e9b26e4-7c72-4167-baae-99cd5f42d8ac"
   },
   {
    "id": "u24",
-   "slug": "natureza-birdwatching",
-   "name": "Natureza · Birdwatching",
-   "label": "Birdwatching",
-   "group": "Natureza/Água",
+   "slug": "montanha-desportos-base-jump",
+   "name": "Montanha · Desportos · Base jump",
+   "label": "Desportos · Base jump",
+   "group": "Atividades",
    "count": 5,
    "types": {
     "Point": 5
@@ -438,61 +435,203 @@
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "a926dc40-0a70-4431-bf15-2cbe800b2867"
+   "datalayer": "fa459121-effb-4bda-870c-31930fd9fade"
   },
   {
    "id": "u25",
-   "slug": "natureza-caca",
-   "name": "Natureza · Caça",
-   "label": "Caça",
-   "group": "Natureza/Água",
-   "count": 1,
+   "slug": "montanha-parapente",
+   "name": "Montanha · Parapente",
+   "label": "Parapente",
+   "group": "Atividades",
+   "count": 53,
    "types": {
-    "Polygon": 1
+    "Point": 53
    },
    "color": "#1cc895",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "243f7e07-4df2-4fba-b913-85d7f750f8eb"
+   "datalayer": "0a0528a2-1297-4d4b-a2c3-b590b2e482f1"
   },
   {
    "id": "u26",
-   "slug": "natureza-geossitios",
-   "name": "Natureza · Geossítios",
-   "label": "Geossítios",
-   "group": "Natureza/Água",
-   "count": 57,
+   "slug": "montanha-desportos-canyons",
+   "name": "Montanha · Desportos · Canyons",
+   "label": "Desportos · Canyons",
+   "group": "Atividades",
+   "count": 259,
    "types": {
-    "Point": 57
+    "Point": 174,
+    "LineString": 85
    },
    "color": "#c8621c",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "d9889df8-35b8-423b-8391-670c7ff48638"
+   "datalayer": "f8ebe182-e207-4907-8276-34ad9448bce9"
   },
   {
    "id": "u27",
-   "slug": "natureza-miradouros",
-   "name": "Natureza · Miradouros",
-   "label": "Miradouros",
-   "group": "Natureza/Água",
-   "count": 565,
+   "slug": "montanha-provas-de-trail-e-skyrunning",
+   "name": "Montanha · Provas de trail e skyrunning",
+   "label": "Provas de trail e skyrunning",
+   "group": "Atividades",
+   "count": 103,
    "types": {
-    "Point": 565
+    "LineString": 4,
+    "Point": 99
    },
    "color": "#301cc8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "c96a360e-879e-477d-9780-c0d72f5ab046"
+   "datalayer": "3e73a6aa-d1c3-4778-9dd2-d4937bd17518"
   },
   {
    "id": "u28",
+   "slug": "montanha-desportos-escalada",
+   "name": "Montanha · Desportos · Escalada",
+   "label": "Desportos · Escalada",
+   "group": "Atividades",
+   "count": 12,
+   "types": {
+    "Point": 12
+   },
+   "color": "#3ac81c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "1b549248-2513-4cbb-ab39-fc87a9540c45"
+  },
+  {
+   "id": "u29",
+   "slug": "montanha-trilhos-e-levadas",
+   "name": "Montanha · Trilhos e levadas",
+   "label": "Trilhos e levadas",
+   "group": "Atividades",
+   "count": 127,
+   "types": {
+    "MultiLineString": 43,
+    "Point": 84
+   },
+   "color": "#c81c6d",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "8b69a100-5969-4ece-abcb-a45d6252b435"
+  },
+  {
+   "id": "u30",
+   "slug": "montanha-desportos-parapente",
+   "name": "Montanha · Desportos · Parapente",
+   "label": "Desportos · Parapente",
+   "group": "Atividades",
+   "count": 53,
+   "types": {
+    "Point": 53
+   },
+   "color": "#1c9fc8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "c98605c1-943d-46e6-b628-c63d13ca6991"
+  },
+  {
+   "id": "u31",
+   "slug": "montanha-percursos-caminho-real",
+   "name": "Montanha · Percursos · Caminho Real",
+   "label": "Percursos · Caminho Real",
+   "group": "Atividades",
+   "count": 53,
+   "types": {
+    "MultiLineString": 6,
+    "Point": 47
+   },
+   "color": "#c8bf1c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "f5f52d97-fdfb-44be-b7bd-a14361782ef4"
+  },
+  {
+   "id": "u32",
+   "slug": "montanha-percursos-trilhos-e-levadas",
+   "name": "Montanha · Percursos · Trilhos e levadas",
+   "label": "Percursos · Trilhos e levadas",
+   "group": "Atividades",
+   "count": 127,
+   "types": {
+    "MultiLineString": 43,
+    "Point": 84
+   },
+   "color": "#8d1cc8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "47ae90a2-520b-405d-8c1f-2ab4cd34a41e"
+  },
+  {
+   "id": "u33",
+   "slug": "montanha-provas-provas-de-trail-e-skyrunning",
+   "name": "Montanha · Provas · Provas de trail e skyrunning",
+   "label": "Provas · Provas de trail e skyrunning",
+   "group": "Atividades",
+   "count": 103,
+   "types": {
+    "LineString": 4,
+    "Point": 99
+   },
+   "color": "#1cc85b",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "c244e917-414a-40b5-8b28-32577077db6e"
+  },
+  {
+   "id": "u34",
+   "slug": "natureza-ceu-astronomia",
+   "name": "Natureza · Céu · Astronomia",
+   "label": "Céu · Astronomia",
+   "group": "Natureza/Água",
+   "count": 8,
+   "types": {
+    "Point": 8
+   },
+   "color": "#c8291c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "7ba3c242-0d09-4e7c-8746-eef658772b43"
+  },
+  {
+   "id": "u35",
+   "slug": "natureza-fauna-birdwatching",
+   "name": "Natureza · Fauna · Birdwatching",
+   "label": "Fauna · Birdwatching",
+   "group": "Natureza/Água",
+   "count": 5,
+   "types": {
+    "Point": 5
+   },
+   "color": "#1c42c8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "a926dc40-0a70-4431-bf15-2cbe800b2867"
+  },
+  {
+   "id": "u36",
    "slug": "natureza-sismos",
    "name": "Natureza · Sismos ⟳",
    "label": "Sismos ⟳",
@@ -501,174 +640,36 @@
    "types": {
     "Point": 4
    },
-   "color": "#3ac81c",
+   "color": "#74c81c",
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
    "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
-   "datalayer": "7b6f6acb-ab91-47a4-8e0b-384f842855cf"
-  },
-  {
-   "id": "u29",
-   "slug": "seguranca-area-ardida-2024-emsr748",
-   "name": "Segurança · Área ardida 2024 (EMSR748)",
-   "label": "Área ardida 2024 (EMSR748)",
-   "group": "Segurança",
-   "count": 12,
-   "types": {
-    "Polygon": 12
-   },
-   "color": "#c81c6d",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "2689f4df-a384-4e3f-80f7-2c17c6d633a8"
-  },
-  {
-   "id": "u30",
-   "slug": "seguranca-derrocadas",
-   "name": "Segurança · Derrocadas",
-   "label": "Derrocadas",
-   "group": "Segurança",
-   "count": 52,
-   "types": {
-    "Point": 3,
-    "LineString": 48,
-    "Polygon": 1
-   },
-   "color": "#1c9fc8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "718f5e98-4ce1-4328-a0dc-736b245ca62e"
-  },
-  {
-   "id": "u31",
-   "slug": "seguranca-notas-osm",
-   "name": "Segurança · Notas OSM",
-   "label": "Notas OSM",
-   "group": "Segurança",
-   "count": 3,
-   "types": {
-    "Point": 3
-   },
-   "color": "#c8bf1c",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "e3235be4-c21e-4d8b-9067-9a25552f5ff3"
-  },
-  {
-   "id": "u32",
-   "slug": "seguranca-rede-movel",
-   "name": "Segurança · Rede móvel",
-   "label": "Rede móvel",
-   "group": "Segurança",
-   "count": 290,
-   "types": {
-    "Point": 290
-   },
-   "color": "#8d1cc8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "08394662-bda8-4283-b35d-35ea15b32e72"
-  },
-  {
-   "id": "u33",
-   "slug": "seguranca-socorro",
-   "name": "Segurança · Socorro",
-   "label": "Socorro",
-   "group": "Segurança",
-   "count": 143,
-   "types": {
-    "Point": 143
-   },
-   "color": "#1cc85b",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "6fcf916f-d116-4991-a5eb-60669ec3e2ef"
-  },
-  {
-   "id": "u34",
-   "slug": "servicos-agua-potavel",
-   "name": "Serviços · Água potável",
-   "label": "Água potável",
-   "group": "Natureza/Água",
-   "count": 629,
-   "types": {
-    "Point": 629
-   },
-   "color": "#c8291c",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "3b60cccf-394b-42bc-9a0f-9b8eeeca07fd"
-  },
-  {
-   "id": "u35",
-   "slug": "servicos-farmacias",
-   "name": "Serviços · Farmácias",
-   "label": "Farmácias",
-   "group": "Outros",
-   "count": 75,
-   "types": {
-    "Point": 75
-   },
-   "color": "#1c42c8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "04c59ec9-73cf-47d8-ba1e-1aca6883516e"
-  },
-  {
-   "id": "u36",
-   "slug": "servicos-servicos-publicos",
-   "name": "Serviços · Serviços públicos",
-   "label": "Serviços públicos",
-   "group": "Outros",
-   "count": 170,
-   "types": {
-    "Point": 170
-   },
-   "color": "#74c81c",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "f6cbe844-d099-4074-a2e7-a7373812627e"
+   "datalayer": "3f143d15-8b94-419e-b321-975b50685d23"
   },
   {
    "id": "u37",
-   "slug": "sociedade-concelhos-ine",
-   "name": "Sociedade · Concelhos (INE)",
-   "label": "Concelhos (INE)",
-   "group": "Outros",
-   "count": 11,
+   "slug": "natureza-fauna-caca",
+   "name": "Natureza · Fauna · Caça",
+   "label": "Fauna · Caça",
+   "group": "Natureza/Água",
+   "count": 1,
    "types": {
-    "Point": 11
+    "Polygon": 1
    },
    "color": "#c81ca7",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "e22ac8d4-4315-4c75-8a6c-353a9322deae"
+   "datalayer": "243f7e07-4df2-4fba-b913-85d7f750f8eb"
   },
   {
    "id": "u38",
-   "slug": "tempo-avisos-ipma",
-   "name": "Tempo · Avisos IPMA ⟳",
-   "label": "Avisos IPMA ⟳",
-   "group": "Tempo",
+   "slug": "natureza-geofisica-sismos",
+   "name": "Natureza · Geofísica · Sismos ⟳",
+   "label": "Geofísica · Sismos ⟳",
+   "group": "Natureza/Água",
    "count": 4,
    "types": {
     "Point": 4
@@ -678,76 +679,303 @@
    "umapColor": "DarkOrange",
    "umapIcon": null,
    "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
-   "datalayer": "a736ac0c-de39-4cdb-8ace-4c8a37f35089"
+   "datalayer": "7b6f6acb-ab91-47a4-8e0b-384f842855cf"
   },
   {
    "id": "u39",
-   "slug": "tempo-chuva-24-h-por-celula",
-   "name": "Tempo · Chuva 24 h (por célula) ⟳",
-   "label": "Chuva 24 h (por célula) ⟳",
-   "group": "Tempo",
-   "count": 62,
+   "slug": "natureza-geologia-geossitios",
+   "name": "Natureza · Geologia · Geossítios",
+   "label": "Geologia · Geossítios",
+   "group": "Natureza/Água",
+   "count": 57,
    "types": {
-    "Point": 62
+    "Point": 57
    },
    "color": "#c8861c",
-   "live": true,
-   "umapColor": "DarkOrange",
+   "live": false,
+   "umapColor": null,
    "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)\nChuva prevista para as próximas 24 h · calculada 14/10 06:19 (hora da Madeira)",
-   "datalayer": "dd0db898-f778-431a-8e98-1227760daa33"
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "d9889df8-35b8-423b-8391-670c7ff48638"
   },
   {
    "id": "u40",
-   "slug": "tempo-estacoes",
-   "name": "Tempo · Estações ⟳",
-   "label": "Estações ⟳",
-   "group": "Tempo",
-   "count": 23,
+   "slug": "natureza-paisagem-miradouros",
+   "name": "Natureza · Paisagem · Miradouros",
+   "label": "Paisagem · Miradouros",
+   "group": "Natureza/Água",
+   "count": 565,
    "types": {
-    "Point": 23
+    "Point": 565
    },
    "color": "#531cc8",
-   "live": true,
-   "umapColor": "DarkOrange",
+   "live": false,
+   "umapColor": null,
    "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
-   "datalayer": "fcb6b2b7-be0f-4784-a330-b097d71b45d7"
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "c96a360e-879e-477d-9780-c0d72f5ab046"
   },
   {
    "id": "u41",
-   "slug": "tempo-incendios-ativos",
-   "name": "Tempo · Incêndios ativos ⟳",
-   "label": "Incêndios ativos ⟳",
-   "group": "Tempo",
-   "count": 0,
-   "types": {},
+   "slug": "natureza-protecao-areas-naturais",
+   "name": "Natureza · Proteção · Áreas naturais",
+   "label": "Proteção · Áreas naturais",
+   "group": "Natureza/Água",
+   "count": 161,
+   "types": {
+    "MultiPolygon": 83,
+    "Point": 78
+   },
    "color": "#1cc821",
-   "live": true,
-   "umapColor": "DarkOrange",
+   "live": false,
+   "umapColor": null,
    "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente\nSem focos ativos (satélite, últimas 24 h) · verificado 14/10 06:20",
-   "datalayer": "221d7e95-d424-4ebd-b309-c9cebc0c9469"
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "273f1b2e-9bd9-447d-9f25-6d3f9f7b7e1c"
   },
   {
    "id": "u42",
-   "slug": "tempo-pontos-de-previsao",
-   "name": "Tempo · Pontos de previsão ⟳",
-   "label": "Pontos de previsão ⟳",
-   "group": "Tempo",
-   "count": 7,
+   "slug": "rede-movel-antenas",
+   "name": "Rede · Móvel · Antenas",
+   "label": "Móvel · Antenas",
+   "group": "Outros",
+   "count": 290,
    "types": {
-    "Point": 7
+    "Point": 290
    },
    "color": "#c81c4a",
-   "live": true,
-   "umapColor": "DarkOrange",
+   "live": false,
+   "umapColor": null,
    "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
-   "datalayer": "280a06a2-a1e2-45c2-b195-267eb821b4ee"
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "08394662-bda8-4283-b35d-35ea15b32e72"
   },
   {
    "id": "u43",
+   "slug": "rede-movel-cobertura-estimada-relevo",
+   "name": "Rede · Móvel · Cobertura estimada (relevo)",
+   "label": "Móvel · Cobertura estimada (relevo)",
+   "group": "Outros",
+   "count": 4,
+   "types": {
+    "MultiPolygon": 4
+   },
+   "color": "#1c7cc8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "0cc97256-6446-47cf-b763-341aee0da4d0"
+  },
+  {
+   "id": "u44",
+   "slug": "seguranca-mapa-notas-de-correcao",
+   "name": "Segurança · Mapa · Notas de correção",
+   "label": "Mapa · Notas de correção",
+   "group": "Segurança",
+   "count": 3,
+   "types": {
+    "Point": 3
+   },
+   "color": "#aec81c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "e3235be4-c21e-4d8b-9067-9a25552f5ff3"
+  },
+  {
+   "id": "u45",
+   "slug": "seguranca-riscos-area-ardida-2024-emsr748",
+   "name": "Segurança · Riscos · Área ardida 2024 (EMSR748)",
+   "label": "Riscos · Área ardida 2024 (EMSR748)",
+   "group": "Segurança",
+   "count": 12,
+   "types": {
+    "Polygon": 12
+   },
+   "color": "#b01cc8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "2689f4df-a384-4e3f-80f7-2c17c6d633a8"
+  },
+  {
+   "id": "u46",
+   "slug": "seguranca-riscos-derrocadas",
+   "name": "Segurança · Riscos · Derrocadas",
+   "label": "Riscos · Derrocadas",
+   "group": "Segurança",
+   "count": 52,
+   "types": {
+    "Point": 3,
+    "LineString": 48,
+    "Polygon": 1
+   },
+   "color": "#1cc87e",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "718f5e98-4ce1-4328-a0dc-736b245ca62e"
+  },
+  {
+   "id": "u47",
+   "slug": "servicos-servicos-publicos",
+   "name": "Serviços · Serviços públicos",
+   "label": "Serviços públicos",
+   "group": "Outros",
+   "count": 170,
+   "types": {
+    "Point": 170
+   },
+   "color": "#c84c1c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "09ebfb65-c43a-4495-a001-2fbcf22c0773"
+  },
+  {
+   "id": "u48",
+   "slug": "seguranca-sinal-zonas-de-gps-fraco",
+   "name": "Segurança · Sinal · Zonas de GPS fraco",
+   "label": "Sinal · Zonas de GPS fraco",
+   "group": "Segurança",
+   "count": 2,
+   "types": {
+    "MultiPolygon": 2
+   },
+   "color": "#1c1fc8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "8e371f2a-afa0-40c4-bea6-25fa8e875c15"
+  },
+  {
+   "id": "u49",
+   "slug": "sociedade-concelhos-ine",
+   "name": "Sociedade · Concelhos (INE)",
+   "label": "Concelhos (INE)",
+   "group": "Outros",
+   "count": 11,
+   "types": {
+    "MultiPolygon": 9,
+    "Polygon": 2
+   },
+   "color": "#51c81c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "664996eb-3bcd-4d72-b30c-4072468911ab"
+  },
+  {
+   "id": "u50",
+   "slug": "seguranca-socorro-dae-e-primeiros-socorros",
+   "name": "Segurança · Socorro · DAE e primeiros socorros",
+   "label": "Socorro · DAE e primeiros socorros",
+   "group": "Segurança",
+   "count": 49,
+   "types": {
+    "Point": 49
+   },
+   "color": "#c81c83",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "153aafc0-c303-4a71-bd6e-1796665aa169"
+  },
+  {
+   "id": "u51",
+   "slug": "seguranca-socorro-meios-de-socorro",
+   "name": "Segurança · Socorro · Meios de socorro",
+   "label": "Socorro · Meios de socorro",
+   "group": "Segurança",
+   "count": 143,
+   "types": {
+    "Point": 143
+   },
+   "color": "#1cb6c8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "6fcf916f-d116-4991-a5eb-60669ec3e2ef"
+  },
+  {
+   "id": "u52",
+   "slug": "servicos-agua-agua-potavel",
+   "name": "Serviços · Água · Água potável",
+   "label": "Água · Água potável",
+   "group": "Outros",
+   "count": 629,
+   "types": {
+    "Point": 629
+   },
+   "color": "#c8a91c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "3b60cccf-394b-42bc-9a0f-9b8eeeca07fd"
+  },
+  {
+   "id": "u53",
+   "slug": "servicos-comercio-supermercados-e-mercearias",
+   "name": "Serviços · Comércio · Supermercados e mercearias",
+   "label": "Comércio · Supermercados e mercearias",
+   "group": "Outros",
+   "count": 320,
+   "types": {
+    "Point": 320
+   },
+   "color": "#761cc8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "e0fcc9cc-2a80-4cba-9df1-8fa15ae40580"
+  },
+  {
+   "id": "u54",
+   "slug": "servicos-dinheiro-multibanco-atm",
+   "name": "Serviços · Dinheiro · Multibanco / ATM",
+   "label": "Dinheiro · Multibanco / ATM",
+   "group": "Outros",
+   "count": 229,
+   "types": {
+    "Point": 229
+   },
+   "color": "#1cc844",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "67b460c6-0729-4c97-9800-27578f790ae6"
+  },
+  {
+   "id": "u55",
+   "slug": "servicos-higiene-casas-de-banho-e-duches",
+   "name": "Serviços · Higiene · Casas de banho e duches",
+   "label": "Higiene · Casas de banho e duches",
+   "group": "Outros",
+   "count": 309,
+   "types": {
+    "Point": 309
+   },
+   "color": "#c81c27",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "f690dca3-46f6-4b41-b014-b6a658ed6af1"
+  },
+  {
+   "id": "u56",
    "slug": "tempo-satelite-nasa-hoje",
    "name": "Tempo · Satélite NASA (hoje) ⟳",
    "label": "Satélite NASA (hoje) ⟳",
@@ -756,7 +984,176 @@
    "types": {
     "Polygon": 1
    },
-   "color": "#1c7cc8",
+   "color": "#1c59c8",
+   "live": true,
+   "umapColor": "DarkOrange",
+   "umapIcon": null,
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)\nImagem de satélite: NASA GIBS / Worldview",
+   "datalayer": "38522a1a-4be4-48b0-b964-634068d79838"
+  },
+  {
+   "id": "u57",
+   "slug": "servicos-internet-wi-fi-gratis",
+   "name": "Serviços · Internet · Wi-Fi grátis",
+   "label": "Internet · Wi-Fi grátis",
+   "group": "Outros",
+   "count": 155,
+   "types": {
+    "Point": 155
+   },
+   "color": "#8bc81c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "62afebea-181e-4129-9f7a-c238f2c55c84"
+  },
+  {
+   "id": "u58",
+   "slug": "servicos-publicos-servicos-publicos",
+   "name": "Serviços · Públicos · Serviços públicos",
+   "label": "Públicos · Serviços públicos",
+   "group": "Outros",
+   "count": 170,
+   "types": {
+    "Point": 170
+   },
+   "color": "#c81cbd",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "f6cbe844-d099-4074-a2e7-a7373812627e"
+  },
+  {
+   "id": "u59",
+   "slug": "servicos-saude-farmacias",
+   "name": "Serviços · Saúde · Farmácias",
+   "label": "Saúde · Farmácias",
+   "group": "Outros",
+   "count": 75,
+   "types": {
+    "Point": 75
+   },
+   "color": "#1cc8a1",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "04c59ec9-73cf-47d8-ba1e-1aca6883516e"
+  },
+  {
+   "id": "u60",
+   "slug": "servicos-turismo-e-correios-turismo-e-ctt",
+   "name": "Serviços · Turismo e correios · Turismo e CTT",
+   "label": "Turismo e correios · Turismo e CTT",
+   "group": "Outros",
+   "count": 68,
+   "types": {
+    "Point": 68
+   },
+   "color": "#c86f1c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "f61b14f5-9dcf-411f-8be3-7b5c79163d64"
+  },
+  {
+   "id": "u61",
+   "slug": "sociedade-territorio-concelhos-ine",
+   "name": "Sociedade · Território · Concelhos (INE)",
+   "label": "Território · Concelhos (INE)",
+   "group": "Outros",
+   "count": 11,
+   "types": {
+    "MultiPolygon": 9,
+    "Polygon": 2
+   },
+   "color": "#3d1cc8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "e22ac8d4-4315-4c75-8a6c-353a9322deae"
+  },
+  {
+   "id": "u62",
+   "slug": "tempo-avisos-avisos-ipma",
+   "name": "Tempo · Avisos · Avisos IPMA ⟳",
+   "label": "Avisos · Avisos IPMA ⟳",
+   "group": "Tempo",
+   "count": 4,
+   "types": {
+    "Point": 4
+   },
+   "color": "#2ec81c",
+   "live": true,
+   "umapColor": "DarkOrange",
+   "umapIcon": null,
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
+   "datalayer": "a736ac0c-de39-4cdb-8ace-4c8a37f35089"
+  },
+  {
+   "id": "u63",
+   "slug": "tempo-chuva-chuva-24-h-por-celula",
+   "name": "Tempo · Chuva · Chuva 24 h (por célula) ⟳",
+   "label": "Chuva · Chuva 24 h (por célula) ⟳",
+   "group": "Tempo",
+   "count": 62,
+   "types": {
+    "Point": 62
+   },
+   "color": "#c81c60",
+   "live": true,
+   "umapColor": "DarkOrange",
+   "umapIcon": null,
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)\nChuva prevista para as próximas 24 h · calculada 14/10 10:16 (hora da Madeira)",
+   "datalayer": "dd0db898-f778-431a-8e98-1227760daa33"
+  },
+  {
+   "id": "u64",
+   "slug": "tempo-incendios-incendios-ativos",
+   "name": "Tempo · Incêndios · Incêndios ativos ⟳",
+   "label": "Incêndios · Incêndios ativos ⟳",
+   "group": "Tempo",
+   "count": 0,
+   "types": {},
+   "color": "#1c93c8",
+   "live": true,
+   "umapColor": "DarkOrange",
+   "umapIcon": null,
+   "note": "⟳ Camada viva: atualizada automaticamente\nSem focos ativos (satélite, últimas 24 h) · verificado 14/10 10:45",
+   "datalayer": "221d7e95-d424-4ebd-b309-c9cebc0c9469"
+  },
+  {
+   "id": "u65",
+   "slug": "tempo-observacao-estacoes",
+   "name": "Tempo · Observação · Estações ⟳",
+   "label": "Observação · Estações ⟳",
+   "group": "Tempo",
+   "count": 23,
+   "types": {
+    "Point": 23
+   },
+   "color": "#c5c81c",
+   "live": true,
+   "umapColor": "DarkOrange",
+   "umapIcon": null,
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
+   "datalayer": "fcb6b2b7-be0f-4784-a330-b097d71b45d7"
+  },
+  {
+   "id": "u66",
+   "slug": "tempo-observacao-satelite-hoje",
+   "name": "Tempo · Observação · Satélite (hoje) ⟳",
+   "label": "Observação · Satélite (hoje) ⟳",
+   "group": "Tempo",
+   "count": 1,
+   "types": {
+    "Polygon": 1
+   },
+   "color": "#991cc8",
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
@@ -764,38 +1161,55 @@
    "datalayer": "9db5c355-3030-44f1-9156-f3f75d380ca6"
   },
   {
-   "id": "u44",
-   "slug": "tempo-webcams-outras",
-   "name": "Tempo · Webcams – outras ⟳",
-   "label": "Webcams – outras ⟳",
+   "id": "u67",
+   "slug": "tempo-previsao-pontos-de-previsao",
+   "name": "Tempo · Previsão · Pontos de previsão ⟳",
+   "label": "Previsão · Pontos de previsão ⟳",
    "group": "Tempo",
-   "count": 29,
+   "count": 7,
    "types": {
-    "Point": 29
+    "Point": 7
    },
-   "color": "#aec81c",
+   "color": "#1cc867",
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
    "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
-   "datalayer": "ef92f07e-41a0-4e65-abe2-85e2ceddaee9"
+   "datalayer": "280a06a2-a1e2-45c2-b195-267eb821b4ee"
   },
   {
-   "id": "u45",
+   "id": "u68",
    "slug": "tempo-webcams-netmadeira",
-   "name": "Tempo · Webcams NetMadeira ⟳",
-   "label": "Webcams NetMadeira ⟳",
+   "name": "Tempo · Webcams · NetMadeira ⟳",
+   "label": "Webcams · NetMadeira ⟳",
    "group": "Tempo",
    "count": 28,
    "types": {
     "Point": 28
    },
-   "color": "#b01cc8",
+   "color": "#c8351c",
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
    "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
    "datalayer": "9ee79b66-4b58-4ec0-95b4-2dda297dc7b4"
+  },
+  {
+   "id": "u69",
+   "slug": "tempo-webcams-outras",
+   "name": "Tempo · Webcams · Outras ⟳",
+   "label": "Webcams · Outras ⟳",
+   "group": "Tempo",
+   "count": 29,
+   "types": {
+    "Point": 29
+   },
+   "color": "#1c36c8",
+   "live": true,
+   "umapColor": "DarkOrange",
+   "umapIcon": null,
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)",
+   "datalayer": "ef92f07e-41a0-4e65-abe2-85e2ceddaee9"
   }
  ],
  "fontes": {}
