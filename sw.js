@@ -1,6 +1,6 @@
 // Shell em pré-cache; camadas e mosaicos guardados só quando usados
-const V='v9',SHELL_C='shell-'+V,DATA_C='data-'+V,TILE_C='tiles-'+V,TILE_MAX=400;
-const SHELL=['./','index.html','app.js','basemap.js','umap.js','sidebar.js','style.css','3d/theme.css','3d/hud.js','manifest.json','favicon.ico','favicon-32.png','apple-touch-icon.png','icon-192.png','icon-512.png','vendor/maplibre-gl.js','vendor/maplibre-gl.css','data/umap/layers.json','data/ipma-areas.geojson'];
+const V='v10',SHELL_C='shell-'+V,DATA_C='data-'+V,TILE_C='tiles-'+V,TILE_MAX=400;
+const SHELL=['./','index.html','app.js','basemap.js','umap.js','sidebar.js','gigio3d.js','style.css','3d/theme.css','3d/hud.js','manifest.json','favicon.ico','favicon-32.png','apple-touch-icon.png','icon-192.png','icon-512.png','vendor/maplibre-gl.js','vendor/maplibre-gl.css','data/umap/layers.json','data/ipma-areas.geojson','data/places.json'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(SHELL_C).then(c=>c.addAll(SHELL)));self.skipWaiting()});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>![SHELL_C,DATA_C,TILE_C].includes(k)).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 async function trim(){const c=await caches.open(TILE_C);const ks=await c.keys();for(let i=0;i<ks.length-TILE_MAX;i++)await c.delete(ks[i])}
