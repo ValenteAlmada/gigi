@@ -1,5 +1,5 @@
 {
-  "readAt": "2026-10-14T15:20:13Z",
+  "readAt": "2026-10-14T20:09:06.482Z",
   "fuels": [
     {
       "name": "Repsol",
@@ -311,8 +311,8 @@
   "antennas": [
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.7260023,
       "lon": -17.1373537
@@ -327,9 +327,9 @@
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6903825,
       "lon": -16.8744658
@@ -343,10 +343,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6592367,
       "lon": -17.0054852
@@ -360,18 +360,18 @@
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.7214423,
       "lon": -16.9661441
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.7329125,
       "lon": -16.7739287
@@ -385,17 +385,17 @@
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.8318896,
       "lon": -17.2020235
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.7536341,
       "lon": -17.0175974
@@ -416,8 +416,8 @@
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.7207851,
       "lon": -16.917353
@@ -432,10 +432,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6584352,
       "lon": -16.8884043
@@ -450,8 +450,8 @@
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.7241161,
       "lon": -16.7587665
@@ -465,36 +465,36 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6872891,
       "lon": -16.833346
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6846338,
       "lon": -17.0045715
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.7706543,
       "lon": -17.238631
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6737247,
       "lon": -16.9085236
@@ -509,9 +509,9 @@
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.8238164,
       "lon": -16.9842144
@@ -525,54 +525,54 @@
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.7812853,
       "lon": -17.2299592
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.8163613,
       "lon": -16.9523039
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6423151,
       "lon": -16.9389342
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.7447891,
       "lon": -16.8146547
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.7555832,
       "lon": -16.870849
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.8207019,
       "lon": -16.9046977
@@ -587,30 +587,30 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.7676369,
       "lon": -16.8341946
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.7189023,
       "lon": -16.8065283
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.7346014,
       "lon": -16.7980716
@@ -633,9 +633,9 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 33.0710496,
       "lon": -16.3199839
@@ -649,27 +649,27 @@
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 33.0602522,
       "lon": -16.3369006
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.8140519,
       "lon": -17.2510309
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.8421702,
       "lon": -17.1868898
@@ -684,10 +684,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.8579748,
       "lon": -17.1917149
@@ -708,9 +708,9 @@
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.8247428,
       "lon": -17.1075498
@@ -748,10 +748,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.750519,
       "lon": -17.2032197
@@ -766,18 +766,18 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.711595,
       "lon": -16.8938599
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.75134,
       "lon": -17.1172815
@@ -792,30 +792,30 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.7233816,
       "lon": -17.1825914
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6896719,
       "lon": -17.1112272
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6785582,
       "lon": -17.0811573
@@ -845,10 +845,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6522459,
       "lon": -16.974059
@@ -869,9 +869,9 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6561764,
       "lon": -16.9564131
@@ -885,10 +885,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6436284,
       "lon": -16.9552115
@@ -903,8 +903,8 @@
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6700668,
       "lon": -16.8838795
@@ -934,9 +934,9 @@
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6748262,
       "lon": -16.8194488
@@ -951,17 +951,17 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6604907,
       "lon": -16.8340051
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.803958,
       "lon": -17.0432064
@@ -975,8 +975,8 @@
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6482723,
       "lon": -16.8628345
@@ -990,17 +990,17 @@
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6696717,
       "lon": -16.9432274
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 33.0864056,
       "lon": -16.3450341
@@ -1022,10 +1022,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6749978,
       "lon": -16.8508253
@@ -1056,9 +1056,9 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6492003,
       "lon": -16.8936589
@@ -1087,10 +1087,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6619844,
       "lon": -16.9053707
@@ -1105,10 +1105,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6672196,
       "lon": -16.917628
@@ -1191,75 +1191,75 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6837777,
       "lon": -16.8531115
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.8204176,
       "lon": -16.972619
     },
     {
       "operators": [
-        "MEO",
+        "Vodafone",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6479437,
       "lon": -16.8796214
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6710546,
       "lon": -16.979578
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6567037,
       "lon": -16.9930601
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6718211,
       "lon": -17.0453897
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6470415,
       "lon": -16.9173548
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6631258,
       "lon": -16.9265199
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.8027666,
       "lon": -16.8661927
@@ -1280,53 +1280,53 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6657677,
       "lon": -16.9504224
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6475124,
       "lon": -16.852845
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6837507,
       "lon": -16.8099135
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.8580062,
       "lon": -17.1779676
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6663322,
       "lon": -16.8919194
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6543202,
       "lon": -16.8868594
@@ -1341,27 +1341,27 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6590172,
       "lon": -16.9109832
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.66276,
       "lon": -16.9004729
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6653861,
       "lon": -17.0234817
@@ -1375,58 +1375,58 @@
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6659788,
       "lon": -16.9360699
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.650262,
       "lon": -16.9014157
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.7884617,
       "lon": -17.1798116
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.71671,
       "lon": -17.1690841
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6798044,
       "lon": -17.0698732
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.6562758,
       "lon": -16.9477737
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 33.0535508,
       "lon": -16.3539541
@@ -1448,35 +1448,35 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.7290032,
       "lon": -17.0260119
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6917572,
       "lon": -16.7739799
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.6460585,
       "lon": -16.9537538
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "NOS",
-        "Vodafone"
+        "NOS"
       ],
       "lat": 32.8669652,
       "lon": -17.1674198
@@ -1497,10 +1497,10 @@
     },
     {
       "operators": [
+        "Vodafone",
         "DIGI",
-        "MEO",
         "NOS",
-        "Vodafone"
+        "MEO"
       ],
       "lat": 32.6450484,
       "lon": -16.8317112
@@ -1515,8 +1515,8 @@
     },
     {
       "operators": [
-        "NOS",
-        "Vodafone"
+        "Vodafone",
+        "NOS"
       ],
       "lat": 32.826936,
       "lon": -16.94395
