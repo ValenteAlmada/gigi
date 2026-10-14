@@ -1,0 +1,25 @@
+/* Tema "cypherpunk": terminal, preto, verde/magenta néon. Sem animações nem efeitos de varrimento. */
+:root{--g:#39ff14;--m:#ff4fd8;--c:#00e5ff;--tx:#d4ffd0;--mono:"JetBrains Mono","Fira Code",ui-monospace,Menlo,Consolas,"DejaVu Sans Mono",monospace}
+body,button,input,#bar>*{font-family:var(--mono)!important}body{background:#000;color:var(--tx)}
+header{background:#000;border-bottom:2px solid var(--g)}h1{color:var(--g);font-size:18px}.upd{color:var(--c)}
+details,.rules{background:#000;border:1px solid var(--g);border-radius:0;margin:6px}
+summary,legend{color:var(--g)}summary h2::before{content:"[ ";color:var(--m)}summary h2::after{content:" ]";color:var(--m)}
+.uh{color:var(--m)}.uh::before{content:"## "}
+#acts li{border-top:1px dashed #1f5f1a}fieldset{border:1px dashed var(--g);border-radius:0}
+.chip{background:#000e;border:1px solid var(--g);border-radius:0;color:var(--g)}
+.ucat,.usub,.uchip,.ures{border-radius:0;border:1px solid var(--g);background:#000;color:var(--g)}
+.ucat[aria-pressed=true],.usub[aria-pressed=true]{background:var(--g);color:#000}
+.usub{border-color:var(--c);color:var(--c)}.usub[aria-pressed=true]{background:var(--c);color:#000}
+.uchip{border-color:var(--m);color:#ffd6f5}.uchip[aria-pressed=true]{background:var(--m);color:#000}
+.ucat.off{border-color:#ff5252;color:#ff8a80;background:#000}.ucnt{background:var(--m);color:#000;border-radius:0}
+.usearch input{background:#000;color:var(--g);border:1px solid var(--g)}
+#sheet{background:#050505;color:var(--tx);border:2px solid var(--g);border-radius:0;box-shadow:none}#close{color:var(--g)}
+#sheet a,#sheet summary{color:var(--c)}#sheet h3{color:var(--g)}#sheet small,.upop .ulido,#sheet .old1,.upop small{color:#b3b3b3}
+.upop .stale,.upop .stale *,#sheet .stale{color:#b3b3b3!important}
+.nums div,.box,#sheet details,.ulive{background:#0b1a0b;border:1px solid #1f5f1a;border-radius:0;color:var(--tx)}.nums b{color:var(--g)}
+.status{border-radius:0;color:#000}.layer,#resumo,#resumo .en,.en{color:#c7c7c7}
+.maplibregl-popup-content{background:#000;color:var(--tx);border:1px solid var(--g)}.upop .maplibregl-popup-content{color:var(--tx)}
+.info{background:#000;color:var(--c);border-color:var(--c)}
+footer{color:#c7c7c7;border-top:1px dashed var(--g)}footer a{color:var(--c)}.note,.rules,small,#umapbox small{color:#c7c7c7}
+#bar{background:#000;border-top:2px solid var(--g)}#bar>*{border-radius:0}.sos{background:#d00;color:#fff}#share{background:#000;color:var(--g);border:1px solid var(--g)}
+#toast{background:#000;border:1px solid var(--g);color:var(--g);border-radius:0}

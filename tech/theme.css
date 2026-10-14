@@ -1,0 +1,17 @@
+/* Tema "tech": painel moderno, ardósia, ciano/azul. Sem animações. */
+:root{--bg:#0f172a;--card:#1e293b;--line:#334155;--tx:#e2e8f0;--mut:#cbd5e1;--ac:#22d3ee;--ac2:#3b82f6;--mono:ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace}
+body{background:var(--bg);background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:24px 24px;color:var(--tx);font-family:Inter,system-ui,sans-serif}
+header{background:#0b1222;border-bottom:1px solid var(--line)}h1{letter-spacing:.02em;font-weight:700}h1::before{content:"";display:inline-block;width:10px;height:10px;background:var(--ac);margin-right:8px;vertical-align:middle}
+.upd,#ddtime,#ltimes,.nums b,.chip,.ucnt,.mk{font-family:var(--mono)}
+details,.rules{background:var(--card);border:1px solid var(--line);border-radius:6px;margin:8px}summary,legend,.uh{color:var(--ac)}
+#acts li{border-top:1px solid var(--line)}fieldset{border-color:var(--line);border-radius:4px}
+.chip{background:#0f172aee;border-radius:4px;border:1px solid var(--ac)}
+.ucat,.usub,.uchip,.ures{border-radius:4px;border:1px solid var(--ac2);background:#0f172a;color:var(--tx)}
+.ucat[aria-pressed=true],.usub[aria-pressed=true]{background:var(--ac);color:#0f172a;border-color:var(--ac)}
+.usub{background:#172554;border-color:#60a5fa}.uchip{background:#0f172a;border-color:#64748b}.uchip[aria-pressed=true]{background:#166534;border-color:#86efac;color:#fff}
+.ucat.off{background:#450a0a;border-color:#f87171}
+#sheet{background:#f8fafc;color:#0f172a;border-radius:8px 8px 0 0;border-top:3px solid var(--ac2)}
+.nums div,.box,#sheet details,.ulive{background:#e2e8f0;border-radius:4px}.nums b{color:#0f172a}#sheet a,#sheet summary{color:#1d4ed8}
+footer{color:var(--mut)}footer a{color:var(--ac)}.note,.rules,small,#umapbox small{color:var(--mut)}#sheet small{color:#475569}
+#bar{background:#0b1222;border-top:1px solid var(--line)}#bar>*{border-radius:6px;font-family:Inter,system-ui,sans-serif}#share{background:var(--ac);color:#0f172a}
+@media(min-width:900px){#sheet{border-radius:8px}}
