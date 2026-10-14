@@ -15,7 +15,7 @@ async function getJSON(key,url,opt){try{const r=await fetch(url,opt);if(!r.ok)th
  catch(e){const t=+localStorage.getItem('t_'+key);let j=null;const d=localStorage.getItem('d_'+key);if(d)j=JSON.parse(d);else{const c=await caches.match(url,{ignoreVary:true});if(c)j=await c.json()}
   if(!j)throw e;offlineAt=offlineAt?Math.min(offlineAt,t):t;const b=document.getElementById('offline');b.hidden=false;b.textContent='Sem rede – dados de '+(t?hhmm(t):'?');return{j,t,old:true}}}
 function ageCls(t){const a=Date.now()-t;return a>3*36e5?'old3':a>36e5?'old1':''}
-function stamp(name,t,old){if(t)S[name]={t,old};document.getElementById('ltimes').innerHTML=Object.entries(S).map(([k,v])=>typeof v==='string'?`<li>${esc(k)}: ${esc(v)}</li>`:`<li class="${ageCls(v.t)}">${esc(k)}: ${v.old?'⚠ ':''}lido às ${hhmm(v.t)}${ageCls(v.t)==='old3'?' (há mais de 3 h)':ageCls(v.t)?' (há mais de 1 h)':''}</li>`).join('')}
+function stamp(name,t,old){if(t)S[name]={t,old};document.getElementById('ltimes').innerHTML=Object.entries(S).sort((a,b)=>a[0].localeCompare(b[0],'pt')).map(([k,v])=>typeof v==='string'?`<li>${esc(k)}: ${esc(v)}</li>`:`<li class="${ageCls(v.t)}">${esc(k)}: ${v.old?'⚠ ':''}lido às ${hhmm(v.t)}${ageCls(v.t)==='old3'?' (há mais de 3 h)':ageCls(v.t)?' (há mais de 1 h)':''}</li>`).join('')}
 setInterval(()=>stamp('',0),6e4);
 let warnings=[];
 function inRing(x,y,r){let c=false;for(let i=0,j=r.length-1;i<r.length;j=i++){const [xi,yi]=r[i],[xj,yj]=r[j];if((yi>y)!=(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)c=!c}return c}
