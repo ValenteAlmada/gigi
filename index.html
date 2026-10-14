@@ -1,0 +1,22 @@
+<!doctype html><html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Madeira – Tempo & Segurança</title><meta name="description" content="Tempo, avisos e segurança na Madeira e Porto Santo. Projeto livre, sem fins comerciais.">
+<meta name="theme-color" content="#0b2e4f"><link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg"><link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"><link rel="stylesheet" href="style.css"></head><body>
+<header id="top"><h1>Madeira – Tempo &amp; Segurança</h1></header>
+<div id="offline" hidden></div>
+<main>
+<div id="mapwrap"><div id="map" role="region" aria-label="Mapa"></div>
+<button id="chips" aria-expanded="false" aria-controls="dd" title="Hoje dá ou não dá? Toque para ver detalhes"></button></div>
+<details id="dd"><summary><h2>Hoje dá ou não dá?</h2></summary><ul id="acts"><li>A carregar…</li></ul><small id="ddtime"></small></details>
+<details id="layers"><summary><h2>Camadas</h2></summary>
+<fieldset><legend>Tempo</legend><label><input type="checkbox" data-l="wx" checked> Pontos Open-Meteo</label><label><input type="checkbox" data-l="ipma" checked> Avisos IPMA (zonas aproximadas)</label></fieldset>
+<fieldset><legend>Terra</legend><label><input type="checkbox" data-l="view"> Miradouros</label><label><input type="checkbox" data-l="mon"> Monumentos</label></fieldset>
+<fieldset><legend>Serviços</legend><label><input type="checkbox" data-l="hosp"> Hospitais e centros de saúde</label><label><input type="checkbox" data-l="pharm"> Farmácias</label></fieldset>
+<ul id="ltimes"></ul><p class="note" id="osmdate"></p></details>
+<p class="rules">ℹ️ Regras de exemplo, ainda a validar com guias locais. Informação indicativa.</p>
+</main>
+<aside id="sheet" hidden aria-live="polite"><button id="close" aria-label="Fechar">✕</button><div id="sheetc"></div></aside>
+<footer><p><b>Informação indicativa. Em emergência ligue 112.</b></p><p>Dados: © colaboradores <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL) · <a href="https://open-meteo.com">Open-Meteo</a> (CC BY 4.0) · <a href="https://www.ipma.pt">IPMA</a> · <a href="https://pt.wikipedia.org">Wikipédia</a> (CC BY-SA) · <a href="https://maplibre.org">MapLibre</a> · <a href="https://openfreemap.org">OpenFreeMap</a>. Zonas de aviso aproximadas (sem polígonos oficiais abertos). Projeto livre, sem fins comerciais.</p></footer>
+<nav id="bar"><a class="sos" href="tel:112">📞 Ligar 112</a><button id="share">📍 Partilhar a minha localização</button></nav>
+<div id="toast" role="status" hidden></div>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script><script src="app.js"></script></body></html>
