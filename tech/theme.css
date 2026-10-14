@@ -15,3 +15,4 @@ details,.rules{background:var(--card);border:1px solid var(--line);border-radius
 footer{color:var(--mut)}footer a{color:var(--ac)}.note,.rules,small,#umapbox small{color:var(--mut)}#sheet small{color:#475569}
 #bar{background:#0b1222;border-top:1px solid var(--line)}#bar>*{border-radius:6px;font-family:Inter,system-ui,sans-serif}#share{background:var(--ac);color:#0f172a}
 @media(min-width:900px){#sheet{border-radius:8px}}
+main a,#dd a{color:var(--ac)}#sheet a{color:#1d4ed8}

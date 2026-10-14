@@ -23,3 +23,4 @@ summary,legend{color:var(--g)}summary h2::before{content:"[ ";color:var(--m)}sum
 footer{color:#c7c7c7;border-top:1px dashed var(--g)}footer a{color:var(--c)}.note,.rules,small,#umapbox small{color:#c7c7c7}
 #bar{background:#000;border-top:2px solid var(--g)}#bar>*{border-radius:0}.sos{background:#d00;color:#fff}#share{background:#000;color:var(--g);border:1px solid var(--g)}
 #toast{background:#000;border:1px solid var(--g);color:var(--g);border-radius:0}
+a,#sheet a,.ifcn a,#dd a{color:var(--c)}
