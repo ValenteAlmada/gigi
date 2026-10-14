@@ -1,12 +1,12 @@
 {
- "read": "2026-10-14T14:19:22+0100",
- "readLabel": "14/10 14:19",
+ "read": "2026-10-14T14:29:44+0100",
+ "readLabel": "14/10 14:29",
  "mapName": "Meteo Madeira – atividades, previsão, estações e webcams (mapa não comercial)",
  "licence": {
   "url": "https://opendatacommons.org/licenses/odbl/1-0/",
   "name": "ODbL 1.0"
  },
- "mapDescription": "**Última atualização: 14/10/2026 12:47 (hora da Madeira) · dados válidos até 15:47 (14/10); depois disso, ou se esta nota tiver mais de 6 h, ignora o semáforo (dados antigos).**\n🛰️ Satélite (imagem de hoje): [[https://worldview.earthdata.nasa.gov/?v=-17.9,32.2,-15.7,33.4&l=VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Terra_CorrectedReflectance_TrueColor,Coastlines_15m&t=2026-10-14|abrir]] · 🚨 Avisos (2.ª verificação): sem avisos amarelo/laranja/vermelho para a Madeira/Porto Santo\nPrevisões e valores calculados são estimativas; os avisos oficiais do IPMA prevalecem.\n✅ Sem avisos IPMA amarelo/laranja/vermelho para a Madeira/Porto Santo neste momento. [[https://www.ipma.pt/pt/otempo/prev-sam/?p=MAD|Avisos IPMA]]\n🗓️ Resumo automático: próximas 24 h — sem chuva relevante; média nas ilhas 0.0 mm. Ver vento e mar nas camadas respetivas.\n🌀 Ciclones tropicais: nenhum tropical ativo a <2500 km da Madeira (2 ativos no Atlântico/Pacífico).\n🧭 Índice Kp (últimas 3 h): 1.7 — calmo; GPS normal. [[https://www.swpc.noaa.gov/|mais]]\n🌊 Temperatura do mar e anomalias [[https://coralreefwatch.noaa.gov/product/5km/index.php|mapa]] · ENSO [[https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/|boletim]] (influência na Madeira fraca)\n\n**Legenda (cor do pin = condições para a atividade):** 🟢 bom · 🟡/🟠 atenção · 🔴 evitar · ⚪ sem dados · ⚠ triângulo = aviso IPMA laranja/vermelho. Linhas de canyon a azul. Estações: cor = temperatura observada (azul <10 · azul-claro 10–15 · verde 15–20 · laranja 20–25 · vermelho >25 °C; cinzento = sem observação nas últimas 3 h).\nAo abrir só a camada Tempo · Estações está ligada; liga as outras no painel de camadas (olho). Camadas por tema; ⟳ = camada viva (atualizada automaticamente), sem ⟳ = camada fixa. Pesquisa por nome na lupa. Ilhas Selvagens: ~280 km a sul (afasta o zoom).\nRadar e trovoada (links externos): [[https://www.rainviewer.com/map.html?loc=32.75,-16.95,8|Radar de chuva]] · [[https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=32.75;x=-16.95;z=8;d=2;dl=2;dc=0;|Trovoada]]\n\nMapa não comercial. Informação indicativa, reunida a partir de fontes públicas e atualizada automaticamente; pode ter erros ou atrasos. Não substitui os avisos oficiais do IPMA e da Proteção Civil, nem as licenças e regras das autoridades. As atividades na natureza têm riscos: confirma sempre as condições no local e decide por tua conta. Em emergência, liga 112.\n\nDados: © contribuidores OpenStreetMap (ODbL) · Open-Meteo (CC BY 4.0). Restantes fontes e licenças: lista à parte (FONTES_MAPA). A licença ODbL do mapa aplica-se à compilação.\nℹ️ Informação não vinculativa. Confirmar junto das autoridades competentes (IPMA, Proteção Civil, IFCN) e de operadores locais.",
+ "mapDescription": "**Última atualização: 14/10/2026 14:19 (hora da Madeira) · dados válidos até 17:19 (14/10); depois disso, ou se esta nota tiver mais de 6 h, ignora o semáforo (dados antigos).**\n🛰️ Satélite (imagem de hoje): [[https://worldview.earthdata.nasa.gov/?v=-17.9,32.2,-15.7,33.4&l=VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Terra_CorrectedReflectance_TrueColor,Coastlines_15m&t=2026-10-14|abrir]] · 🚨 Avisos (2.ª verificação): sem avisos amarelo/laranja/vermelho para a Madeira/Porto Santo\nPrevisões e valores calculados são estimativas; os avisos oficiais do IPMA prevalecem.\n✅ Sem avisos IPMA amarelo/laranja/vermelho para a Madeira/Porto Santo neste momento. [[https://www.ipma.pt/pt/otempo/prev-sam/?p=MAD|Avisos IPMA]]\n🗓️ Resumo automático: próximas 24 h — sem chuva relevante; média nas ilhas 0.0 mm. Ver vento e mar nas camadas respetivas.\n🌀 Ciclones tropicais: nenhum tropical ativo a <2500 km da Madeira (2 ativos no Atlântico/Pacífico).\n🧭 Índice Kp (últimas 3 h): 2.3 — calmo; GPS normal. [[https://www.swpc.noaa.gov/|mais]]\n🌊 Temperatura do mar e anomalias [[https://coralreefwatch.noaa.gov/product/5km/index.php|mapa]] · ENSO [[https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/|boletim]] (influência na Madeira fraca)\n\n**Legenda (cor do pin = condições para a atividade):** 🟢 bom · 🟡/🟠 atenção · 🔴 evitar · ⚪ sem dados · ⚠ triângulo = aviso IPMA laranja/vermelho. Linhas de canyon a azul. Estações: cor = temperatura observada (azul <10 · azul-claro 10–15 · verde 15–20 · laranja 20–25 · vermelho >25 °C; cinzento = sem observação nas últimas 3 h).\nAo abrir só a camada Tempo · Estações está ligada; liga as outras no painel de camadas (olho). Camadas por tema; ⟳ = camada viva (atualizada automaticamente), sem ⟳ = camada fixa. Pesquisa por nome na lupa. Ilhas Selvagens: ~280 km a sul (afasta o zoom).\nRadar e trovoada (links externos): [[https://www.rainviewer.com/map.html?loc=32.75,-16.95,8|Radar de chuva]] · [[https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=32.75;x=-16.95;z=8;d=2;dl=2;dc=0;|Trovoada]]\n\nMapa não comercial. Informação indicativa, reunida a partir de fontes públicas e atualizada automaticamente; pode ter erros ou atrasos. Não substitui os avisos oficiais do IPMA e da Proteção Civil, nem as licenças e regras das autoridades. As atividades na natureza têm riscos: confirma sempre as condições no local e decide por tua conta. Em emergência, liga 112.\n\nDados: © contribuidores OpenStreetMap (ODbL) · Open-Meteo (CC BY 4.0). Restantes fontes e licenças: lista à parte (FONTES_MAPA). A licença ODbL do mapa aplica-se à compilação.\nℹ️ Informação não vinculativa. Confirmar junto das autoridades competentes (IPMA, Proteção Civil, IFCN) e de operadores locais.",
  "layers": [
   {
    "id": "u0",
@@ -152,9 +152,9 @@
    "name": "Mar · Praias",
    "label": "Praias",
    "group": "Atividades",
-   "count": 81,
+   "count": 80,
    "types": {
-    "Point": 81
+    "Point": 80
    },
    "color": "#c81c56",
    "live": false,
@@ -682,9 +682,9 @@
   },
   {
    "id": "u39",
-   "slug": "tempo-chuva-24-h-mapa-de-calor",
-   "name": "Tempo · Chuva 24 h (mapa de calor) ⟳",
-   "label": "Chuva 24 h (mapa de calor) ⟳",
+   "slug": "tempo-chuva-24-h-por-celula",
+   "name": "Tempo · Chuva 24 h (por célula) ⟳",
+   "label": "Chuva 24 h (por célula) ⟳",
    "group": "Tempo",
    "count": 62,
    "types": {
@@ -694,7 +694,7 @@
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)\nChuva prevista para as próximas 24 h · calculada 14/10 12:24 (hora da Madeira)",
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)\nChuva prevista para as próximas 24 h · calculada 14/10 06:19 (hora da Madeira)",
    "datalayer": "dd0db898-f778-431a-8e98-1227760daa33"
   },
   {
@@ -726,7 +726,7 @@
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente\n1 focos de calor (satélite, últimas 24 h) · verificado 14/10 12:48",
+   "note": "⟳ Camada viva: atualizada automaticamente\nSem focos ativos (satélite, últimas 24 h) · verificado 14/10 06:20",
    "datalayer": "221d7e95-d424-4ebd-b309-c9cebc0c9469"
   },
   {
