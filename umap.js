@@ -15,8 +15,7 @@ let FRESH=false; // dados lidos há menos de 1 h
 function clean(o,d){let L=String(d||'').split('\n');
  if(NORISK.test(o.slug))L=L.filter(l=>!/^[🟢🟡🟠🔴⚪]\s/u.test(l.trim()));
  if(o.slug.startsWith('mobilidade-autocarros')&&!FRESH)L=L.filter(l=>!/^(Hoje:|Próxim)/i.test(l.trim()));
- L=L.map(l=>l.replace(/^Dificuldade:/,o.slug==='montanha-canyons'?'Cotação do autor do mapa (não homologada):':'Dificuldade:')
-  .replace(/\(termina no mar: por confirmar\)/,'(termina no mar: cotação do autor do mapa, não homologada)')
+ L=L.map(l=>l.replace(/\s*\(termina no mar: por confirmar\)/,'')
   .replace(/^\*\*📜 Licença e regras\*\*/,'**📜 Precisa de autorização e regras**')
   .replace(/^Licença\/autorização de uso das imagens:/,'Precisa de autorização (uso das imagens):')
   .replace(/^Licença\/autorização:/,'Precisa de autorização:').replace(/^📝 Licença:/,'📝 Autorização:')
