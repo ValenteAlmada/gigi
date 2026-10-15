@@ -1,12 +1,12 @@
 {
- "read": "2026-10-15T01:33:57+0100",
- "readLabel": "15/10 01:33",
+ "read": "2026-10-15T06:56:15+0100",
+ "readLabel": "15/10 06:56",
  "mapName": "Meteo Madeira – atividades, previsão, estações e webcams (mapa não comercial)",
  "licence": {
   "url": "https://opendatacommons.org/licenses/odbl/1-0/",
   "name": "ODbL 1.0"
  },
- "mapDescription": "**Última atualização: 15/10/2026 00:48 (hora da Madeira) · dados válidos até 03:48 (15/10); depois disso, ou se esta nota tiver mais de 6 h, ignora o semáforo (dados antigos).**\n🛰️ Satélite (imagem de hoje): [[https://worldview.earthdata.nasa.gov/?v=-17.9,32.2,-15.7,33.4&l=VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Terra_CorrectedReflectance_TrueColor,Coastlines_15m&t=2026-10-15|abrir]] · 🚨 Avisos (2.ª verificação): sem avisos amarelo/laranja/vermelho para a Madeira/Porto Santo\nPrevisões e valores calculados são estimativas; os avisos oficiais do IPMA prevalecem.\n✅ Sem avisos IPMA amarelo/laranja/vermelho para a Madeira/Porto Santo neste momento. [[https://www.ipma.pt/pt/otempo/prev-sam/?p=MAD|Avisos IPMA]]\n🗓️ Resumo automático: próximas 24 h — sem chuva relevante; média nas ilhas 0.0 mm. Ver vento e mar nas camadas respetivas.\n🌀 Ciclones tropicais: nenhum tropical ativo a <2500 km da Madeira (2 ativos no Atlântico/Pacífico).\n🧭 Índice Kp (últimas 3 h): 2.7 — calmo; GPS normal. [[https://www.swpc.noaa.gov/|mais]]\n🌊 Temperatura do mar e anomalias [[https://coralreefwatch.noaa.gov/product/5km/index.php|mapa]] · ENSO [[https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/|boletim]] (influência na Madeira fraca)\n\n**Legenda (cor do pin = condições para a atividade):** 🟢 sem sinal de risco no modelo (indicativo, não é garantia) · 🟡/🟠 atenção · 🔴 evitar · ⚪ sem dados · ⚠ triângulo = aviso IPMA laranja/vermelho. Linhas de canyon a azul. Estações: cor = temperatura observada (azul <10 · azul-claro 10–15 · verde 15–20 · laranja 20–25 · vermelho >25 °C; cinzento = sem observação nas últimas 3 h).\nAo abrir só a camada Tempo · Estações está ligada; liga as outras no painel de camadas (olho). Camadas por tema; ⟳ = camada viva (atualizada automaticamente), sem ⟳ = camada fixa. Pesquisa por nome na lupa. Ilhas Selvagens: ~280 km a sul (afasta o zoom).\nRadar e trovoada (links externos): [[https://www.rainviewer.com/map.html?loc=32.75,-16.95,8|Radar de chuva]] · [[https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=32.75;x=-16.95;z=8;d=2;dl=2;dc=0;|Trovoada]]\n\nMapa não comercial. Informação indicativa, reunida a partir de fontes públicas e atualizada automaticamente; pode ter erros ou atrasos. Não substitui os avisos oficiais do IPMA e da Proteção Civil, nem as licenças e regras das autoridades. As atividades na natureza têm riscos: confirma sempre as condições no local e decide por tua conta. Em emergência, liga 112.\n\nDados: © contribuidores OpenStreetMap (ODbL) · [[https://open-meteo.com/|Open-Meteo]] (CC BY 4.0). A licença ODbL do mapa aplica-se à compilação.\nℹ️ Informação não vinculativa. Confirmar junto das autoridades competentes (IPMA, Proteção Civil, IFCN) e de operadores locais.",
+ "mapDescription": "**Última atualização: 15/10/2026 06:30 (hora da Madeira) · dados válidos até 09:30 (15/10); depois disso, ou se esta nota tiver mais de 6 h, ignora o semáforo (dados antigos).**\n🛰️ Satélite (imagem de hoje): [[https://worldview.earthdata.nasa.gov/?v=-17.9,32.2,-15.7,33.4&l=VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Terra_CorrectedReflectance_TrueColor,Coastlines_15m&t=2026-10-15|abrir]] · 🚨 Avisos (2.ª verificação): sem avisos amarelo/laranja/vermelho para a Madeira/Porto Santo\nPrevisões e valores calculados são estimativas; os avisos oficiais do IPMA prevalecem.\n✅ Sem avisos IPMA amarelo/laranja/vermelho para a Madeira/Porto Santo neste momento. [[https://www.ipma.pt/pt/otempo/prev-sam/?p=MAD|Avisos IPMA]]\n🗓️ Resumo automático: próximas 24 h — sem chuva relevante; média nas ilhas 0.0 mm. Ver vento e mar nas camadas respetivas.\n🌀 Ciclones tropicais: nenhum tropical ativo a <2500 km da Madeira (2 ativos no Atlântico/Pacífico).\n🧭 Índice Kp (últimas 3 h): 2.0 — calmo; GPS normal. [[https://www.swpc.noaa.gov/|mais]]\n🌊 Temperatura do mar e anomalias [[https://coralreefwatch.noaa.gov/product/5km/index.php|mapa]] · ENSO [[https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/|boletim]] (influência na Madeira fraca)\n\n**Legenda (cor do pin = condições para a atividade):** 🟢 sem sinal de risco no modelo (indicativo, não é garantia) · 🟡/🟠 atenção · 🔴 evitar · ⚪ sem dados · ⚠ triângulo = aviso IPMA laranja/vermelho. Linhas de canyon a azul. Estações: cor = temperatura observada (azul <10 · azul-claro 10–15 · verde 15–20 · laranja 20–25 · vermelho >25 °C; cinzento = sem observação nas últimas 3 h).\nAo abrir só a camada Tempo · Estações está ligada; liga as outras no painel de camadas (olho). Camadas por tema; ⟳ = camada viva (atualizada automaticamente), sem ⟳ = camada fixa. Pesquisa por nome na lupa. Ilhas Selvagens: ~280 km a sul (afasta o zoom).\nRadar e trovoada (links externos): [[https://www.rainviewer.com/map.html?loc=32.75,-16.95,8|Radar de chuva]] · [[https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=32.75;x=-16.95;z=8;d=2;dl=2;dc=0;|Trovoada]]\n\nMapa não comercial. Informação indicativa, reunida a partir de fontes públicas e atualizada automaticamente; pode ter erros ou atrasos. Não substitui os avisos oficiais do IPMA e da Proteção Civil, nem as licenças e regras das autoridades. As atividades na natureza têm riscos: confirma sempre as condições no local e decide por tua conta. Em emergência, liga 112.\n\nDados: © contribuidores OpenStreetMap (ODbL) · [[https://open-meteo.com/|Open-Meteo]] (CC BY 4.0). A licença ODbL do mapa aplica-se à compilação.\nℹ️ Informação não vinculativa. Confirmar junto das autoridades competentes (IPMA, Proteção Civil, IFCN) e de operadores locais.",
  "layers": [
   {
    "id": "u0",
@@ -61,6 +61,23 @@
   },
   {
    "id": "u3",
+   "slug": "energia-combustivel-postos-e-carregamento-eletrico",
+   "name": "Energia · Combustível · Postos e carregamento elétrico",
+   "label": "Combustível · Postos e carregamento elétrico",
+   "group": "Outros",
+   "count": 166,
+   "types": {
+    "Point": 166
+   },
+   "color": "#c81cb3",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "d202ddb7-ed2f-443f-90ee-6e72eb67a3b2"
+  },
+  {
+   "id": "u4",
    "slug": "lazer-bicicleta",
    "name": "Lazer · Bicicleta",
    "label": "Bicicleta",
@@ -70,29 +87,12 @@
     "MultiLineString": 32,
     "Point": 60
    },
-   "color": "#c81cb3",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "f3fd87eb-71c2-4716-b660-4d1fd0a08625"
-  },
-  {
-   "id": "u4",
-   "slug": "energia-combustivel-postos-e-carregamento-eletrico",
-   "name": "Energia · Combustível · Postos e carregamento elétrico",
-   "label": "Combustível · Postos e carregamento elétrico",
-   "group": "Outros",
-   "count": 166,
-   "types": {
-    "Point": 166
-   },
    "color": "#1cc8ab",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "d202ddb7-ed2f-443f-90ee-6e72eb67a3b2"
+   "datalayer": "f3fd87eb-71c2-4716-b660-4d1fd0a08625"
   },
   {
    "id": "u5",
@@ -370,6 +370,23 @@
   },
   {
    "id": "u21",
+   "slug": "mobilidade-transportes-autocarros-interurbanos",
+   "name": "Mobilidade · Transportes · Autocarros – interurbanos",
+   "label": "Transportes · Autocarros – interurbanos",
+   "group": "Outros",
+   "count": 874,
+   "types": {
+    "Point": 874
+   },
+   "color": "#c81c33",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "b05b8716-1cfd-4fb5-95d6-48ec3f3265ce"
+  },
+  {
+   "id": "u22",
    "slug": "montanha-canyons",
    "name": "Montanha · Canyons",
    "label": "Canyons",
@@ -379,29 +396,12 @@
     "Point": 174,
     "LineString": 85
    },
-   "color": "#c81c33",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "bc5a5bf7-19e8-4fa9-a250-298977788e21"
-  },
-  {
-   "id": "u22",
-   "slug": "mobilidade-transportes-autocarros-interurbanos",
-   "name": "Mobilidade · Transportes · Autocarros – interurbanos",
-   "label": "Transportes · Autocarros – interurbanos",
-   "group": "Outros",
-   "count": 874,
-   "types": {
-    "Point": 874
-   },
    "color": "#1c65c8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
    "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "b05b8716-1cfd-4fb5-95d6-48ec3f3265ce"
+   "datalayer": "bc5a5bf7-19e8-4fa9-a250-298977788e21"
   },
   {
    "id": "u23",
@@ -839,23 +839,6 @@
   },
   {
    "id": "u48",
-   "slug": "seguranca-sinal-zonas-de-gps-fraco",
-   "name": "Segurança · Sinal · Zonas de GPS fraco",
-   "label": "Sinal · Zonas de GPS fraco",
-   "group": "Segurança",
-   "count": 2,
-   "types": {
-    "MultiPolygon": 2
-   },
-   "color": "#1c1fc8",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "8e371f2a-afa0-40c4-bea6-25fa8e875c15"
-  },
-  {
-   "id": "u49",
    "slug": "sociedade-concelhos-ine",
    "name": "Sociedade · Concelhos (INE)",
    "label": "Concelhos (INE)",
@@ -865,7 +848,7 @@
     "MultiPolygon": 9,
     "Polygon": 2
    },
-   "color": "#51c81c",
+   "color": "#1c1fc8",
    "live": false,
    "umapColor": null,
    "umapIcon": null,
@@ -873,14 +856,31 @@
    "datalayer": "664996eb-3bcd-4d72-b30c-4072468911ab"
   },
   {
+   "id": "u49",
+   "slug": "seguranca-sinal-zonas-de-gps-fraco",
+   "name": "Segurança · Sinal · Zonas de GPS fraco",
+   "label": "Sinal · Zonas de GPS fraco",
+   "group": "Segurança",
+   "count": 2,
+   "types": {
+    "MultiPolygon": 2
+   },
+   "color": "#51c81c",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "8e371f2a-afa0-40c4-bea6-25fa8e875c15"
+  },
+  {
    "id": "u50",
    "slug": "seguranca-socorro-dae-e-primeiros-socorros",
    "name": "Segurança · Socorro · DAE e primeiros socorros",
    "label": "Socorro · DAE e primeiros socorros",
    "group": "Segurança",
-   "count": 42,
+   "count": 32,
    "types": {
-    "Point": 42
+    "Point": 32
    },
    "color": "#c81c83",
    "live": false,
@@ -959,23 +959,6 @@
   },
   {
    "id": "u55",
-   "slug": "servicos-higiene-casas-de-banho-e-duches",
-   "name": "Serviços · Higiene · Casas de banho e duches",
-   "label": "Higiene · Casas de banho e duches",
-   "group": "Outros",
-   "count": 294,
-   "types": {
-    "Point": 294
-   },
-   "color": "#c81c27",
-   "live": false,
-   "umapColor": null,
-   "umapIcon": null,
-   "note": "📌 Camada fixa: locais e informação de referência",
-   "datalayer": "f690dca3-46f6-4b41-b014-b6a658ed6af1"
-  },
-  {
-   "id": "u56",
    "slug": "tempo-satelite-nasa-hoje",
    "name": "Tempo · Satélite NASA (hoje) ⟳",
    "label": "Satélite NASA (hoje) ⟳",
@@ -984,7 +967,7 @@
    "types": {
     "Polygon": 1
    },
-   "color": "#1c59c8",
+   "color": "#c81c27",
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
@@ -992,14 +975,31 @@
    "datalayer": "38522a1a-4be4-48b0-b964-634068d79838"
   },
   {
+   "id": "u56",
+   "slug": "servicos-higiene-casas-de-banho-e-duches",
+   "name": "Serviços · Higiene · Casas de banho e duches",
+   "label": "Higiene · Casas de banho e duches",
+   "group": "Outros",
+   "count": 298,
+   "types": {
+    "Point": 298
+   },
+   "color": "#1c59c8",
+   "live": false,
+   "umapColor": null,
+   "umapIcon": null,
+   "note": "📌 Camada fixa: locais e informação de referência",
+   "datalayer": "f690dca3-46f6-4b41-b014-b6a658ed6af1"
+  },
+  {
    "id": "u57",
    "slug": "servicos-internet-wi-fi-gratis",
    "name": "Serviços · Internet · Wi-Fi grátis",
    "label": "Internet · Wi-Fi grátis",
    "group": "Outros",
-   "count": 155,
+   "count": 157,
    "types": {
-    "Point": 155
+    "Point": 157
    },
    "color": "#8bc81c",
    "live": false,
@@ -1048,9 +1048,9 @@
    "name": "Serviços · Turismo e correios · Turismo e CTT",
    "label": "Turismo e correios · Turismo e CTT",
    "group": "Outros",
-   "count": 66,
+   "count": 67,
    "types": {
-    "Point": 66
+    "Point": 67
    },
    "color": "#c86f1c",
    "live": false,
@@ -1108,7 +1108,7 @@
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)\nChuva prevista para as próximas 24 h · calculada 14/10 16:16 (hora da Madeira)",
+   "note": "⟳ Camada viva: atualizada automaticamente (ver hora em cada pin; cinzento = dado antigo)\nChuva prevista para as próximas 24 h · calculada 14/10 22:15 (hora da Madeira)",
    "datalayer": "dd0db898-f778-431a-8e98-1227760daa33"
   },
   {
@@ -1123,7 +1123,7 @@
    "live": true,
    "umapColor": "DarkOrange",
    "umapIcon": null,
-   "note": "⟳ Camada viva: atualizada automaticamente\nSem focos ativos (satélite, últimas 24 h) · verificado 14/10 16:49",
+   "note": "⟳ Camada viva: atualizada automaticamente\nSem focos ativos (satélite, últimas 24 h) · verificado 14/10 22:31",
    "datalayer": "221d7e95-d424-4ebd-b309-c9cebc0c9469"
   },
   {
