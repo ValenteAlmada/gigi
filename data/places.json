@@ -1,7 +1,1527 @@
 {
-  "readAt": "2026-10-25T18:55:40.577Z",
-  "fuels": [],
-  "antennas": [],
-  "error": "overpass 504",
+  "readAt": "2026-10-25T21:39:02.942Z",
+  "fuels": [
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.8659099,
+      "lon": -17.1669012
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6708869,
+      "lon": -16.9225584
+    },
+    {
+      "name": "GALP",
+      "brand": "GALP",
+      "lat": 32.6720291,
+      "lon": -16.9356348
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6649639,
+      "lon": -16.9373748
+    },
+    {
+      "name": "Repsol Gaula",
+      "brand": "Repsol",
+      "lat": 32.6710096,
+      "lon": -16.8039787
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6822314,
+      "lon": -17.0534577
+    },
+    {
+      "name": "Serrão",
+      "brand": "Serrão",
+      "lat": 32.669855,
+      "lon": -17.0639416
+    },
+    {
+      "name": "Serrão",
+      "brand": "Serrão",
+      "lat": 32.6767829,
+      "lon": -17.0773001
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.8015759,
+      "lon": -16.8789759
+    },
+    {
+      "name": "GALP",
+      "brand": "GALP",
+      "lat": 32.8063321,
+      "lon": -17.0470437
+    },
+    {
+      "name": "Galp - Camacha",
+      "brand": "Galp",
+      "lat": 32.6763048,
+      "lon": -16.8519376
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.7801793,
+      "lon": -17.0333474
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6496995,
+      "lon": -16.9361892
+    },
+    {
+      "name": "Galp",
+      "brand": "Galp",
+      "lat": 32.7546856,
+      "lon": -16.8194488
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.6561911,
+      "lon": -16.9001454
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.8261967,
+      "lon": -16.9039337
+    },
+    {
+      "name": "Repsol Campanário",
+      "brand": "Repsol",
+      "lat": 32.670414,
+      "lon": -17.0301686
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.6556639,
+      "lon": -16.8374673
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6517932,
+      "lon": -16.9261669
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.6540408,
+      "lon": -16.9283383
+    },
+    {
+      "name": "GALP",
+      "brand": "GALP",
+      "lat": 32.7428647,
+      "lon": -16.7358253
+    },
+    {
+      "name": "GALP",
+      "brand": "GALP",
+      "lat": 32.6989285,
+      "lon": -17.1218289
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.648908,
+      "lon": -16.878213
+    },
+    {
+      "name": "Galp",
+      "brand": "Galp",
+      "lat": 32.6500425,
+      "lon": -16.9189538
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.6552829,
+      "lon": -16.9147157
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.810833,
+      "lon": -16.8846671
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6460615,
+      "lon": -16.9371587
+    },
+    {
+      "name": "Galp Camara de Lobos",
+      "brand": null,
+      "lat": 32.6516771,
+      "lon": -16.9780696
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6745942,
+      "lon": -16.9789942
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.647439,
+      "lon": -16.8357577
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.6582161,
+      "lon": -16.9513175
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6548675,
+      "lon": -16.9663732
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.6811255,
+      "lon": -17.101866
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.7256354,
+      "lon": -16.8261205
+    },
+    {
+      "name": "Serrão",
+      "brand": "Serrão",
+      "lat": 32.7260449,
+      "lon": -17.1726859
+    },
+    {
+      "name": "Galp - João Duarte Caldeira Domingos",
+      "brand": "GALP",
+      "lat": 32.8228712,
+      "lon": -16.9898955
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6934053,
+      "lon": -16.7821581
+    },
+    {
+      "name": "Galp",
+      "brand": "Galp",
+      "lat": 32.7305176,
+      "lon": -17.1781856
+    },
+    {
+      "name": "GALP",
+      "brand": "Galp",
+      "lat": 32.6559164,
+      "lon": -16.900614
+    },
+    {
+      "name": "GALP",
+      "brand": "Galp",
+      "lat": 32.6482052,
+      "lon": -16.8589605
+    },
+    {
+      "name": "SPELTA-PRODUTOS PETROLIFEROS",
+      "brand": null,
+      "lat": 32.6699042,
+      "lon": -16.8561252
+    },
+    {
+      "name": "GALP",
+      "brand": "Galp",
+      "lat": 32.644947,
+      "lon": -16.9181764
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6607809,
+      "lon": -16.8935971
+    },
+    {
+      "name": "Galp",
+      "brand": "Galp",
+      "lat": 32.6591209,
+      "lon": -16.9186079
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.8050119,
+      "lon": -16.9666458
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 33.0709796,
+      "lon": -16.3427836
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6487982,
+      "lon": -16.9738822
+    },
+    {
+      "name": "Galp",
+      "brand": "Galp",
+      "lat": 33.0664558,
+      "lon": -16.3396717
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6485814,
+      "lon": -16.8529729
+    },
+    {
+      "name": "Repsol",
+      "brand": "Repsol",
+      "lat": 32.6521758,
+      "lon": -16.9259375
+    },
+    {
+      "name": "BP",
+      "brand": "BP",
+      "lat": 32.6446058,
+      "lon": -16.8542068
+    }
+  ],
+  "antennas": [
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.7260023,
+      "lon": -17.1373537
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.7258534,
+      "lon": -17.1369115
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6903825,
+      "lon": -16.8744658
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.816475,
+      "lon": -16.9522778
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6592367,
+      "lon": -17.0054852
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.7448528,
+      "lon": -16.8146194
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.7214423,
+      "lon": -16.9661441
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.7329125,
+      "lon": -16.7739287
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.7364169,
+      "lon": -16.9260675
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.8318896,
+      "lon": -17.2020235
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.7536341,
+      "lon": -17.0175974
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.7535597,
+      "lon": -17.0178874
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6424958,
+      "lon": -16.9391627
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.7207851,
+      "lon": -16.917353
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.7815479,
+      "lon": -17.2301238
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6584352,
+      "lon": -16.8884043
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6546744,
+      "lon": -16.9023211
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.7241161,
+      "lon": -16.7587665
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.7241723,
+      "lon": -16.759126
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6872891,
+      "lon": -16.833346
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6846338,
+      "lon": -17.0045715
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.7706543,
+      "lon": -17.238631
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6737247,
+      "lon": -16.9085236
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6771927,
+      "lon": -16.9112931
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.8238164,
+      "lon": -16.9842144
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6658293,
+      "lon": -17.0241373
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.7812853,
+      "lon": -17.2299592
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.8163613,
+      "lon": -16.9523039
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6423151,
+      "lon": -16.9389342
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.7447891,
+      "lon": -16.8146547
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.7555832,
+      "lon": -16.870849
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.8207019,
+      "lon": -16.9046977
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.8027892,
+      "lon": -16.8661532
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.7676369,
+      "lon": -16.8341946
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.7189023,
+      "lon": -16.8065283
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.7346014,
+      "lon": -16.7980716
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 33.0429694,
+      "lon": -16.3587794
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 33.0535643,
+      "lon": -16.3537663
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 33.0710496,
+      "lon": -16.3199839
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 33.0703472,
+      "lon": -16.3192031
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 33.0602522,
+      "lon": -16.3369006
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.8140519,
+      "lon": -17.2510309
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.8421702,
+      "lon": -17.1868898
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.842092,
+      "lon": -17.1868487
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.8579748,
+      "lon": -17.1917149
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.8673389,
+      "lon": -17.1681741
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.8512761,
+      "lon": -17.1661929
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.8247428,
+      "lon": -17.1075498
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.809571,
+      "lon": -17.1143944
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.8042381,
+      "lon": -17.0438077
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.7413073,
+      "lon": -16.7379708
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.73538,
+      "lon": -16.8861847
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.750519,
+      "lon": -17.2032197
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.7251531,
+      "lon": -16.7725707
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.711595,
+      "lon": -16.8938599
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.75134,
+      "lon": -17.1172815
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.7512531,
+      "lon": -17.1172438
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.7233816,
+      "lon": -17.1825914
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6896719,
+      "lon": -17.1112272
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6785582,
+      "lon": -17.0811573
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.674211,
+      "lon": -17.0520566
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6872046,
+      "lon": -17.0495863
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6838545,
+      "lon": -16.9906636
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6522459,
+      "lon": -16.974059
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6494117,
+      "lon": -16.9744965
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6569228,
+      "lon": -16.9455917
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6561764,
+      "lon": -16.9564131
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6509395,
+      "lon": -16.9643082
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6436284,
+      "lon": -16.9552115
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6469015,
+      "lon": -16.9467504
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6700668,
+      "lon": -16.8838795
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6605155,
+      "lon": -16.8618491
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6459179,
+      "lon": -16.8616292
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6611083,
+      "lon": -16.8338214
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6748262,
+      "lon": -16.8194488
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6801182,
+      "lon": -16.8040207
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6604907,
+      "lon": -16.8340051
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.803958,
+      "lon": -17.0432064
+    },
+    {
+      "operators": [
+        "Vodafone"
+      ],
+      "lat": 32.6527507,
+      "lon": -16.8426794
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6482723,
+      "lon": -16.8628345
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6487342,
+      "lon": -16.8628791
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6696717,
+      "lon": -16.9432274
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 33.0864056,
+      "lon": -16.3450341
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 33.0863134,
+      "lon": -16.3450049
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6975893,
+      "lon": -17.1192031
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6749978,
+      "lon": -16.8508253
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6914304,
+      "lon": -17.0567974
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.7229833,
+      "lon": -17.1781339
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6889474,
+      "lon": -16.854353
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6492003,
+      "lon": -16.8936589
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6494903,
+      "lon": -16.8933257
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6510108,
+      "lon": -16.8879332
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6676896,
+      "lon": -16.8543215
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6619844,
+      "lon": -16.9053707
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.666147,
+      "lon": -16.9109108
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6672196,
+      "lon": -16.917628
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6690711,
+      "lon": -16.9021466
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6762204,
+      "lon": -16.9024353
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6661899,
+      "lon": -16.9356466
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6579397,
+      "lon": -16.9722378
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.654309,
+      "lon": -16.8947035
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6569725,
+      "lon": -16.9278476
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6530454,
+      "lon": -16.9075352
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6598268,
+      "lon": -16.9104132
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6486472,
+      "lon": -16.9101986
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6493665,
+      "lon": -16.9182399
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6837777,
+      "lon": -16.8531115
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.8204176,
+      "lon": -16.972619
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6479437,
+      "lon": -16.8796214
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6710546,
+      "lon": -16.979578
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6567037,
+      "lon": -16.9930601
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6718211,
+      "lon": -17.0453897
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6470415,
+      "lon": -16.9173548
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6631258,
+      "lon": -16.9265199
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.8027666,
+      "lon": -16.8661927
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6607515,
+      "lon": -17.0098119
+    },
+    {
+      "operators": [
+        "NOS"
+      ],
+      "lat": 32.669412,
+      "lon": -16.9770286
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6657677,
+      "lon": -16.9504224
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6475124,
+      "lon": -16.852845
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6837507,
+      "lon": -16.8099135
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.8580062,
+      "lon": -17.1779676
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6663322,
+      "lon": -16.8919194
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6543202,
+      "lon": -16.8868594
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6701187,
+      "lon": -16.8831083
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6590172,
+      "lon": -16.9109832
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.66276,
+      "lon": -16.9004729
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6653861,
+      "lon": -17.0234817
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6434426,
+      "lon": -16.924594
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6659788,
+      "lon": -16.9360699
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.650262,
+      "lon": -16.9014157
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.7884617,
+      "lon": -17.1798116
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.71671,
+      "lon": -17.1690841
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6798044,
+      "lon": -17.0698732
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.6562758,
+      "lon": -16.9477737
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 33.0535508,
+      "lon": -16.3539541
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6987574,
+      "lon": -16.7709464
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 33.084474,
+      "lon": -16.3232106
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.7290032,
+      "lon": -17.0260119
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6917572,
+      "lon": -16.7739799
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.6460585,
+      "lon": -16.9537538
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS"
+      ],
+      "lat": 32.8669652,
+      "lon": -17.1674198
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6874348,
+      "lon": -16.8332943
+    },
+    {
+      "operators": [
+        "MEO"
+      ],
+      "lat": 32.6447486,
+      "lon": -16.9107223
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "DIGI",
+        "NOS",
+        "MEO"
+      ],
+      "lat": 32.6450484,
+      "lon": -16.8317112
+    },
+    {
+      "operators": [
+        "DIGI",
+        "MEO"
+      ],
+      "lat": 32.6934064,
+      "lon": -16.7756715
+    },
+    {
+      "operators": [
+        "Vodafone",
+        "NOS"
+      ],
+      "lat": 32.826936,
+      "lon": -16.94395
+    }
+  ],
+  "error": null,
   "note": "OpenStreetMap, via Overpass. Leitura reutilizada durante uma hora. Não é cobertura oficial."
 }
