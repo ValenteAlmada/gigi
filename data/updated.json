@@ -1,1 +1,1 @@
-{"updated": "2026-11-09T11:43:42+00:00", "label": "09/11 11:43", "errors": []}
+{"updated": "2026-11-09T22:27:23+00:00", "label": "09/11 22:27", "errors": ["umap: Command '['python3', '/home/runner/work/gigi/gigi/tools/../tools/umap_pull.py']' returned non-zero exit status 1."]}
