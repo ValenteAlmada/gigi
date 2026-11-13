@@ -112,17 +112,17 @@
 "nota": ""
 },
 "PR 3": {
-"estado": "Aberto/open",
+"estado": "Encerrado/closed",
 "nome": "Vereda do Burro",
 "nota": ""
 },
 "PR 3.1": {
-"estado": "Aberto/open",
+"estado": "Encerrado/closed",
 "nome": "Caminho Real do Monte",
 "nota": ""
 },
 "PR 4": {
-"estado": "Parcialmente transitável",
+"estado": "Encerrado/closed",
 "nome": "Levada do Barreiro",
 "nota": ""
 },
