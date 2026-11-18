@@ -2,7 +2,7 @@
 "fonte": "https://ifcn.madeira.gov.pt/pt/atividades-de-natureza/percursos-pedestres-recomendados/percursos-pedestres-recomendados.html",
 "percursos": {
 "PR 1": {
-"estado": "Encerrado/closed",
+"estado": "Aberto/open",
 "nome": "Vereda do Areeiro",
 "nota": ""
 },
@@ -37,12 +37,12 @@
 "nota": "(Transitável desde a Boca da Corrida até ao km 3,5)"
 },
 "PR 13": {
-"estado": "Encerrado/closed",
+"estado": "Aberto/open",
 "nome": "Vereda do Fanal",
 "nota": ""
 },
 "PR 13.1": {
-"estado": "Encerrado/closed",
+"estado": "Aberto/open",
 "nome": "Vereda da Palha Carga",
 "nota": ""
 },
@@ -52,7 +52,7 @@
 "nota": ""
 },
 "PR 15": {
-"estado": "Encerrado/closed",
+"estado": "Aberto/open",
 "nome": "Vereda da Ribeira da Janela",
 "nota": ""
 },
